@@ -14,12 +14,9 @@ public:
         if(!contains_one)
             return 1;
         
-//         checking for 2
-        int n = nums.size();
-        // if(n==1)
-            // return 2;
         
 //         converting all the irrelevant numbers to 1
+        int n = nums.size();
         for(int i = 0; i < n; i++){
             if(nums[i] <= 0 || nums[i] > n){
                 nums[i] = 1;
