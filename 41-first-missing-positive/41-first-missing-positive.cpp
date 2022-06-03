@@ -23,7 +23,7 @@ public:
             }
         }
         
-//         converting the number to negative
+//         taking the value from array going to that index making that number negative
         for(int i = 0; i < n; i++){
             int x = abs(nums[i]);
             if(nums[x-1]>0)
@@ -31,7 +31,7 @@ public:
         }
         
 //         returning the correct number
-        for(int i = 0;i<n;i++){
+        for(int i = 0;i < n;i++){
             if(nums[i]>0)
                 return i+1;
         }
