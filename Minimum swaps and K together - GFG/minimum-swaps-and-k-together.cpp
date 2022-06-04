@@ -15,30 +15,35 @@ class Solution
 public:
     int minSwap(int arr[], int n, int k) {
         // Complet the function
-        int count = 0, ans = 0, tracker = 0;
-        for(int i = 0;i < n ;i++ ){
-            if(arr[i] <= k){
-                if(arr[count]>k){
-                    ans++;
-                }
+        
+        int count = 0;
+        for(int i = 0;i<n;i++){
+            if(arr[i]<=k){
                 count++;
             }
         }
         
-        if(count == 1){
-            return 0;
+        int bad = 0;
+        for(int i = 0;i<count;i++){
+            if(arr[i]>k){
+                bad++;
+            }
         }
         
-        tracker = ans;
+        int ans = bad;
         
-        for(int j = 0;j+count < n;j++){
-            if(arr[j]>k)
-                tracker--;
-            if(arr[j+count]>k)
-                tracker++;
-            ans = min(ans,tracker);
+        for(int i = 0, j = count; j < n; ++i,++j){
+            
+            if(arr[i]>k){
+                --bad;
+            }
+            
+            if(arr[j]>k){
+                ++bad;
+            }
+            
+            ans = min(ans,bad);
         }
-        
         return ans;
     }
 };
