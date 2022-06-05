@@ -2,7 +2,7 @@ class Solution {
 public:
     bool isPalindrome(string s,int i,int j){
         while(i<j){
-            if(s.at(i)==s.at(j)){
+            if(s[i]==s[j]){
                 i++;
                 j--;
             } else {
@@ -17,7 +17,7 @@ public:
         int j = s.size()-1;
         
         while(i<j){
-            if(s.at(i) == s.at(j)){
+            if(s[i] == s[j]){
                 i++;
                 j--;
             } else {
