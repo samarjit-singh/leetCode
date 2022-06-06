@@ -42,7 +42,7 @@ public:
             ans = max(ans, dp1[i]+dp2[i+1]);
         }
         
-//         from y to x
+//         from second len to first len
         sum = 0;
         
         for(int i = 0; i < n; i++){
