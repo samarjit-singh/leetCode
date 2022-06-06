@@ -16,8 +16,8 @@ class Solution {
         int maximum,minimum;
         
         for(int i = 0; i < n ; i++){
-            maximum = max(arr[i]+k,arr[n-1]-k);
-            minimum = min(arr[i+1]-k,arr[0]+k);
+            maximum = max(arr[i]+k,arr[n-1]-k);  //checking maximum between last element and all the elements
+            minimum = min(arr[i+1]-k,arr[0]+k);  //checking for minimum b/w the first element and all elemnts
             
             if(minimum>=0){
                 result = min(result, maximum-minimum);
