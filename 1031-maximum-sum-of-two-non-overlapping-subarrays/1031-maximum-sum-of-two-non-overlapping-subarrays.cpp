@@ -2,15 +2,7 @@ class Solution {
 public:
     int maxSumTwoNoOverlap(vector<int>& nums, int firstLen, int secondLen) {
         int n = nums.size();
-       
-        // if(n==3){
-        //     int sum=0;
-        //     for(int i=0;i<n;i++){
-        //         sum += nums[i];
-        //     }
-        //     return sum;
-        // }
-        
+               
         int dp1[n];
         int dp2[n];
         int sum = 0;
@@ -67,7 +59,7 @@ public:
             }
         }
         
-        // ans = 0;
+
         for(int i = secondLen-1; i < n - firstLen; i++){
             ans = max(ans, dp1[i]+dp2[i+1]);
         }
