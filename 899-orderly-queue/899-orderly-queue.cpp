@@ -24,14 +24,19 @@ public:
             return res;
             
         } else if (k==1){
+            
             string ans = s;
+            
             for(int i=0;i<s.length();i++){
                 string reorder = s.substr(i)+s.substr(0,i);
+                cout<<"s.substr(i) "<<s.substr(i)<<" s.substr(0,i) "<<s.substr(0,i)<<endl;
                 if(ans.compare(reorder)>0){
                     ans = reorder;
                 }
             }
+            
             return ans;
+            
         }
         
         
