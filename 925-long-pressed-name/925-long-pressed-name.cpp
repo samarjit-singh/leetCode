@@ -9,7 +9,7 @@ public:
                 i++;
             } else if(!j || typed[j] != typed[j-1]){
                 return false;
-            }
+            } 
         }
         return i==m;
        }
