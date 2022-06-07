@@ -15,11 +15,14 @@ public:
             sort(char_array,char_array+n);  //stoing the character array
             
             
-            string res = "";                  
+            string res = "";   
+            
             for (int i = 0; i < n; i++) {
                 res = res + char_array[i];   //pasting back the elements to string
             }
+            
             return res;
+            
         } else if (k==1){
             string ans = s;
             for(int i=0;i<s.length();i++){
