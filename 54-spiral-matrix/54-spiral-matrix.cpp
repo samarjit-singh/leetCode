@@ -5,12 +5,12 @@ public:
         int n = matrix.size(); // number of rows
         int m = matrix[0].size(); //number of columns
         vector<int> res;
-        
-        int directionFlag = 0;
-        int top = 0, down = n-1, left = 0, right = m-1;
-        
-        while(top<=down && left<=right){
-            
+                                                                      //       L   R
+        int directionFlag = 0;                                        //       _ _ _
+        int top = 0, down = n-1, left = 0, right = m-1;               // top  |_|_|_|
+                                                                      //      |_|_|_|
+        while(top<=down && left<=right){                              // down |_|_|_|
+                                                                      //            
             if(directionFlag == 0){
                 for(int i=left;i<=right;i++){
                     res.push_back(matrix[top][i]);
@@ -32,7 +32,7 @@ public:
                 }
                 left++;
             }
-            directionFlag = (directionFlag+1)%4;
+            directionFlag = (directionFlag+1)%4;   //change direction
         }
         return res;
     }
