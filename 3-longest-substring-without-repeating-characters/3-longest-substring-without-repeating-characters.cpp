@@ -17,7 +17,8 @@ public:
         
         while(i<n && j<n){
             if(st.count(s[j])==0){
-                st.insert(s[j++]);
+                st.insert(s[j]);
+                j++;
                 ans = max(ans,j-i);
             } else {
                 st.erase(s[i]);
