@@ -20,7 +20,7 @@ public:
             if(len>max_len){
                 max_len = len;
                 start = l+1;
-                end = r-1;
+                // end = r-1;
             }
         }
         
@@ -39,7 +39,7 @@ public:
             if(len>max_len){
                 max_len = len;
                 start = l+1;
-                end = r-1;
+                // end = r-1;
             }
         }
         
