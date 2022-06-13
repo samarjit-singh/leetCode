@@ -5,7 +5,7 @@ public:
         vector<vector<string>> ans;
         map<string,vector<string>> hm;
         
-        for(auto &word:strs){
+        for(auto word:strs){
             string sorted = word;
             sort(sorted.begin(),sorted.end());
             hm[sorted].push_back(word);
