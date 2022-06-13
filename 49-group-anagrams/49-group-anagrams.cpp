@@ -11,7 +11,7 @@ public:
             hm[sorted].push_back(word);
         }
         
-        for(auto &it:hm){
+        for(auto it:hm){
             ans.push_back(it.second);
         }
         return ans;
