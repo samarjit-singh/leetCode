@@ -24,8 +24,8 @@ public:
     }
     
     int shipWithinDays(vector<int>& weights, int days) {
-        int l = 1;
-        int r = 50000*500;
+        int l = 1;           // min days and weight
+        int r = 50000*500;   // max days and weight
         while(l<r){
             int mid = (l+r)/2;
             if(ok(mid,weights,days))
