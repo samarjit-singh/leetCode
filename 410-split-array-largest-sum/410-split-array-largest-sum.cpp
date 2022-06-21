@@ -4,9 +4,12 @@ public:
         int start = 0;
         int end = 0;
         
+        start = *max_element(nums.begin(), nums.end()); //in the end it will contain the max element from the array
         for(int i=0;i<nums.size();i++){
-            start = *max_element(nums.begin(), nums.end()); //in the end it will contain the max element from the array
+            
+            cout<<"start "<<start<<endl;
             end += nums[i];
+            cout<<"end "<<end<<endl;
         }
         
 //         binary search
