@@ -5,8 +5,11 @@ public:
         int n = nums.size();
         int sum = 0;
             
-        for(int i : nums){
-            sum += (i + divisor - 1) / divisor;
+        // for(int i : nums){
+        //     sum += (i + divisor - 1) / divisor;
+        // }
+        for(int i=0;i<n;i++){
+            sum += (nums[i]+divisor-1)/divisor;
         }
         
         if(sum>threshold){
