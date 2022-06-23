@@ -20,11 +20,11 @@ public:
         int start = 1, end = *max_element(nums.begin(),nums.end()), ans=0;
         while(start < end){
             int mid = (start + end)/2;
-            if(!getAns(nums,threshold,mid)){
+            if(getAns(nums,threshold,mid)){
+                end = mid;
+            } else {
                 ans = mid;
                 start = mid+1;
-            } else {
-                end = mid;
             }
         }
         return ans+1;
