@@ -9,14 +9,16 @@ public:
             
             if((nums[start] == nums[mid]) && (nums[end] == nums[mid])){
                 start++;
-                // end--;
-                continue;
-            }
-            if(nums[mid]>nums[end]){
+                end--;
+                // continue;
+            } else {
+                if(nums[mid]>nums[end]){
                 start = mid + 1;
             } else {
                 end = mid;
             }
+            }
+            
         }
         return nums[start];
     }
