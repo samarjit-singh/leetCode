@@ -25,14 +25,30 @@ public:
             fast = fast->next->next; //moving fast by 2 position
             
 //             when slow == fast it means there is cycle
-            if(slow == fast){
-                while(slow != entry){ //entry is already initialized to head
-                    slow = slow->next;
-                    entry = entry->next; //when they come at same position that is the starting point
-                }
-                return entry;
+            // if(slow == fast){
+            //     while(slow != entry){ //entry is already initialized to head
+            //         slow = slow->next;
+            //         entry = entry->next; //when they come at same position that is the starting point
+            //     }
+            //     return entry;
+            // }
+            
+            if(slow==fast){
+                break;
             }
         }
-        return NULL;
+        
+        if(fast==NULL || fast->next==NULL){
+            return NULL;
+        }
+        
+        fast = head;
+        
+        while(fast != slow){
+            fast = fast->next;
+            slow = slow->next;
+        }
+        
+        return fast;
     }
 };
