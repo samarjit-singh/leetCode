@@ -11,25 +11,23 @@
 class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
-         ListNode* prevptr = NULL;
-         ListNode* currptr = head;
+         ListNode* previousptr = NULL;
+         ListNode* currentptr = head;
          ListNode* nextptr;
         
-        while(currptr != NULL){
-            nextptr = currptr->next; //initializinf next pointer
-            currptr->next = prevptr; //current ke next ko previous ko point kr wa diya
-            
+        while(currentptr != NULL){
+            nextptr = currentptr->next; //initializinf next pointer
+            currentptr->next = previousptr; //current ke next ko previous ko point kr wa diya
             
 //             moving forward the pointers
-            prevptr = currptr;
-            currptr = nextptr;
+            previousptr = currentptr;
+            currentptr = nextptr;
 //             no need of moving forward the next pointer beacuse it is getting initialized at the top
-            
             
         }
         
 //         this is our new head
-        return prevptr;
+        return previousptr;
         
     }
 };
