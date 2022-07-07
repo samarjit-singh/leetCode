@@ -20,7 +20,7 @@ public:
         ListNode* fast = head;
         ListNode* entry = head;
         
-        while(fast->next && fast->next->next){
+        while(fast!=NULL && fast->next!=NULL){
             slow = slow->next; //moving slow by 1 position
             fast = fast->next->next; //moving fast by 2 position
             
