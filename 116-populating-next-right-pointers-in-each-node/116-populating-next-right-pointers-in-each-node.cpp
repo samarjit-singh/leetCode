@@ -28,13 +28,13 @@ public:
         
 //         till there are no nodes
 //         we are doing it for each level
-        while(current->left != NULL){
+        while(current->left){
             
 //             making another pointer temp and making it point to current
 //             beacuse we need current for moving forward
             Node* temp = current;
             
-            while(current != NULL){
+            while(current){
 //                 for test case 1
 //                 suppose current is at root node
                 current->left->next = current->right;
