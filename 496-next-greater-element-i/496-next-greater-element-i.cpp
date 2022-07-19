@@ -13,7 +13,13 @@ public:
             while(!st.empty() && st.top()<=ele){  
                 st.pop();
             }
-            int res = (st.empty() ? -1 : st.top());
+            // int res = (st.empty() ? -1 : st.top());
+            int res = 0;
+            if(st.empty()){
+                res = -1;
+            } else {
+                res = st.top();
+            }
             umap.insert({ele,res});
             st.push(ele);
         }
