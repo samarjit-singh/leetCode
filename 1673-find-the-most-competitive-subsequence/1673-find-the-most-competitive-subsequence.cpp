@@ -1,7 +1,8 @@
 class Solution {
 public:
     vector<int> mostCompetitive(vector<int>& nums, int k) {
-        vector<int> ans;
+//         simple implementation of monotonic stack using vector
+        vector<int> ans; // make a ans vector
         int remaining = nums.size()-k;
         
         for(auto a:nums){
