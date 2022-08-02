@@ -39,7 +39,7 @@ public:
     }
     
     bool hasNext() {
-        return !que.empty();
+        return que.size()>=1;
     }
 };
 
