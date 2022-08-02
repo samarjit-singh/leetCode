@@ -16,42 +16,30 @@
  * };
  */
 
+queue<int> que;
+
 class NestedIterator {
-    vector<int> output;
-    int i = 0;
     
 public:
     
-    void helper(vector<NestedInteger> &nestedList){
-        for(int i=0;i<nestedList.size();i++){
-            if(nestedList[i].isInteger()){
-                output.push_back(nestedList[i].getInteger());
+    NestedIterator(vector<NestedInteger> &nestedList) {
+        for(auto i : nestedList){
+            if(i.isInteger()){
+                que.push(i.getInteger());
             } else {
-                helper(nestedList[i].getList());
+                NestedIterator(i.getList());
             }
         }
     }
     
-    NestedIterator(vector<NestedInteger> &nestedList) {
-        helper(nestedList);
-    }
-    
     int next() {
-        // int ans = -1;
-        // if(int i<ans.size()){
-        //     ans = output[i];
-        //     i++;
-        // }
-        int ans = output.at(i);
-        i++;
-        return ans;
+        int top = que.front();
+        que.pop();
+        return top;
     }
     
     bool hasNext() {
-        if(i<output.size())
-            return true;
-        else
-            return false;
+        return !que.empty();
     }
 };
 
