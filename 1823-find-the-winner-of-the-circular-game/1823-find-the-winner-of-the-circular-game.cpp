@@ -8,7 +8,7 @@ public:
         }
         
         while(que.size()>1){
-            int n = k;
+            int n;
             for(n = k;n>1;n--){
                 int first = que.front();
                 que.pop();
