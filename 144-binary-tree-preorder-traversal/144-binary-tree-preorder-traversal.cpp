@@ -27,7 +27,6 @@ public:
                 st.pop();
             }
         }
-        
         return preorder;
     }
 };
