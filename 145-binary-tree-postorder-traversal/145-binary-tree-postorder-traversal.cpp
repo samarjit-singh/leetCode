@@ -15,14 +15,15 @@ public:
         if(root==NULL){
             return {};
         }
-        stack<TreeNode*> s1;
-        stack<TreeNode*> s2;
+        
+        stack<TreeNode*>s1;
+        stack<TreeNode*>s2;
         vector<int> postorder;
         
-        s1.push(root);  //pushing the top most node in s1 stack
+        s1.push(root);
         
         while(!s1.empty()){
-            root = s1.top();  
+            root = s1.top();
             s1.pop();
             
             if(root->left!=NULL){
@@ -32,14 +33,14 @@ public:
             if(root->right!=NULL){
                 s1.push(root->right);
             }
+            
             s2.push(root);
         }
+        
         while(!s2.empty()){
             postorder.push_back(s2.top()->val);
             s2.pop();
         }
-        
-        
         return postorder;
     }
 };
