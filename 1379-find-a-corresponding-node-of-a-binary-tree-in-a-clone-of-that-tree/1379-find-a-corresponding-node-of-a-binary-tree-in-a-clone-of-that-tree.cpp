@@ -15,9 +15,10 @@ public:
         return inorder(original,cloned,target,res);
     }
     TreeNode* inorder(TreeNode* original, TreeNode* cloned, TreeNode* target,TreeNode*&res){
+//         fololowing the inorder traveral
         if(original!=NULL){
             inorder(original->left,cloned->left,target,res);
-            if(original==target){
+            if(original->val==target->val){
                 res = cloned;
             }
             inorder(original->right,cloned->right,target,res);
