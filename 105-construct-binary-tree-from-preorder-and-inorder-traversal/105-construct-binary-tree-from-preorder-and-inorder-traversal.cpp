@@ -12,31 +12,38 @@
 class Solution {
 public:
     
-    int PreIndex = 0;
+    int PreIndex = 0; //making it global cause we want to access in the entire code
     
     TreeNode* buildTreeUtil(vector<int>& preorder, vector<int>& inorder, int inorderStart ,int inorderEnd) {
         
-        if(inorderStart>inorderEnd){
-            return NULL;
+//         part 1
+        if(inorderStart>inorderEnd){ // if inorder start is > than inorder end 
+            return NULL; // return null
         }
         
-        TreeNode* root = new TreeNode(preorder[PreIndex]);
+//         part 2
+        //make preorder first element as the root node of binary tree
+        TreeNode* root = new TreeNode(preorder[PreIndex]); 
+    
+        PreIndex++; // and increment the size of preorder index
         
-        PreIndex++;
-        
+        // make a local index counter for inorder 
+        // doing this beacuse we want this counter only in our sub array
         int inorderIndex;
         
-        for(int i=inorderStart; i<=inorderEnd;i++){
-            if(inorder[i]==root->val){
-                inorderIndex = i;
-                break;
+//         part3
+        for(int i=inorderStart; i<=inorderEnd;i++){ // start from inorder start till inorder index
+            if(inorder[i]==root->val){ // if inorder ith element is = to our root val
+                inorderIndex = i; //store the index value in inorder
+                break; // and break from the loop
             }
         }
         
-        root->left = buildTreeUtil(preorder,inorder,inorderStart,inorderIndex-1);
-        root->right = buildTreeUtil(preorder,inorder,inorderIndex+1,inorderEnd);
+//         now its just ging to left and right
+        root->left = buildTreeUtil(preorder,inorder,inorderStart,inorderIndex-1); // from to ii-1
+        root->right = buildTreeUtil(preorder,inorder,inorderIndex+1,inorderEnd); // from ii+1 to ie
         
-        return root;
+        return root; // return root
     }
     
     
