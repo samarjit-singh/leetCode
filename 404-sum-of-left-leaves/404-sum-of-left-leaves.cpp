@@ -10,23 +10,24 @@
  * };
  */
 class Solution {
+public:
     int sum = 0;
-    void sumOfLeafNodes(TreeNode* root,bool isLeft){
-        if(isLeft && !root->left && !root->right){
-            sum += root->val;
+    void sumOfLeafNodes(TreeNode* root,bool isLeft){ 
+        if(isLeft && !root->left && !root->right){ // check if the node is left and does not have left or right
+            sum += root->val; // add its value to sum
             return;
         }
-        if(root->left){
-            sumOfLeafNodes(root->left,true);
+        if(root->left){ // make a recursive call for root left
+            sumOfLeafNodes(root->left,true); // for left pass true
         }
-        if(root->right){
-            sumOfLeafNodes(root->right,false);
+        if(root->right){ // make a recursive call for root right
+            sumOfLeafNodes(root->right,false); // for right pass return false
         }
     }
-public:
+    
     int sumOfLeftLeaves(TreeNode* root) {
-        if(!root) return 0;
-        sumOfLeafNodes(root,false);
-        return sum;
+        if(!root) return 0; //if root does not exist return 0
+        sumOfLeafNodes(root,false); // call the function
+        return sum; // return the sum
     }
 };
