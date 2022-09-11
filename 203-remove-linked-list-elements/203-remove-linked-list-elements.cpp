@@ -14,22 +14,12 @@ public:
         if(head==NULL){
             return head;
         }
-        
-        ListNode* prev = NULL;
-        ListNode* curr = head;
-        
-        while(curr){
-            if(curr->val==val){
-                if(!prev){
-                    head = curr->next;
-                } else {
-                    prev->next = curr->next;
-                }
-            } else {
-                prev = curr;
-            }
-            curr = curr->next;
+        ListNode* h = removeElements(head->next,val);
+        if(head->val==val){
+            return h;
         }
+        head->next = h;
         return head;
     }
 };
+// this is the recursive version
