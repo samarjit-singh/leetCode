@@ -15,7 +15,7 @@ public:
         if(root==NULL){
             return 0;
         }    
-        int left = max(0, maxPath(root->left,maximum));
+        int left =  max(0,maxPath(root->left,maximum));
         int right = max(0,maxPath(root->right,maximum));
         maximum = max(maximum, left+right+root->val);
         return max(left,right) + root->val;
