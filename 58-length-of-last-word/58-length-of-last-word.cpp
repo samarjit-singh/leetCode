@@ -11,7 +11,7 @@ public:
             }
             
             if(s[i]==' ' && !space ){ //if first character is the space
-                
+                continue;
             } else {
                 ans++;
                 space = true;
