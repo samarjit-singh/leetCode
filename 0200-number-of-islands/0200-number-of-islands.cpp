@@ -36,7 +36,7 @@ public:
             for(int j=0;j<m;j++){
                 if(grid[i][j]=='1'){
                     ans++;
-                numIslandsRec(i,j,n,m,grid);
+                    numIslandsRec(i,j,n,m,grid);
                 }
                 
             }
