@@ -1,7 +1,7 @@
 class Solution {
 public:
     vector<vector<int>> matrixReshape(vector<vector<int>>& mat, int r, int c) {
-        int rows = mat.size();
+        int rows = mat.size(); 
         int column = mat[0].size();
         
         if(r*c != rows*column) { //if(row and col multiplication is not same, then they do not hold same amount of data)
