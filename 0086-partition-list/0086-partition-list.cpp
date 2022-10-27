@@ -11,24 +11,26 @@
 class Solution {
 public:
     ListNode* partition(ListNode* head, int x) {
-        // ListNode* temp = head;
-        ListNode* left = new ListNode(-1);
+        // make two listNode left and right
+        ListNode* left = new ListNode(-1); 
         ListNode* right = new ListNode(-1);
+//         make another two tail node pointing to left and right
         ListNode* ltail = left;
         ListNode* rtail = right;
         
         while(head!=NULL){
-            if(head->val < x){
-                ltail->next = head;
-                ltail = ltail->next;
-            } else {
-                rtail->next = head;
-                rtail = rtail->next;
+            if(head->val < x){ // if head val is smaller than x 
+                ltail->next = head; // make ltail next point to head 
+                ltail = ltail->next; // move ltail forward
+            } else { // if not then right
+                rtail->next = head; //make rtail next point to head
+                rtail = rtail->next; //move rtail forward
             }
-            head = head->next;
+            head = head->next; //head will move forward to iterate over the input list everytime
         }
         
-        ltail->next = right->next;
+//         now ltail next is pointing to NULL make it poiny to right
+        ltail->next = right->next; // right is -1 so point it to right next
         rtail->next = NULL;
         return left->next;
     }
