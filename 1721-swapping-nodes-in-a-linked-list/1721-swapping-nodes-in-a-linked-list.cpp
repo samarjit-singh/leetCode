@@ -27,14 +27,15 @@ public:
         }
         
         cout<<kth->val;
-        swap(p2->val,kth->val);
-        
-        // int temp = p2->val;
-        // p2->val = kth->val;
-        // kth->val = temp;
-        
+        swap(p2->val,kth->val);        
         
         return head;
         
     }
 };
+
+// so in this Q be basically move p1 till k 
+// then put p1 value in k
+// and move p1 by one position ahead
+// now move p1 and p2 till p1 becomes NULL
+// NOW SWAP P2 AND KTH
