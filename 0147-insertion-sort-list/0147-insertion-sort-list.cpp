@@ -11,8 +11,9 @@
 class Solution {
 public:
     ListNode* insertionSortList(ListNode* head) {
-        ListNode* curr = head;
-        ListNode* prev = head;
+        if(head==NULL){
+            return nullptr;
+        }
         
         int temp = 0;
         for(ListNode* curr = head; curr != NULL; curr = curr->next){
