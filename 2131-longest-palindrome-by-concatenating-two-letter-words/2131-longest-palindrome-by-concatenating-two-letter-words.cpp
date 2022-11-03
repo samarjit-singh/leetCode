@@ -18,7 +18,7 @@ public:
             
             if(s==t){
                 ans += x.second/2;
-                if(x.second%2)
+                if(x.second%2!=0) // not eve
                     flag = true;
             } else {
                 if(mp.count(s)){
