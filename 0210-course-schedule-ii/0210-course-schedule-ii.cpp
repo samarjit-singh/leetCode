@@ -12,10 +12,10 @@ class Solution {
     }
 public:
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) {
-        vector<vector<int>> adj(numCourses);
+        vector<vector<int>> adj(numCourses); //create adjaceny list of the graph
         
 //         creating the adjacency list
-        for(vector<int>& courses: prerequisites){
+        for(auto courses: prerequisites){
             adj[courses[1]].push_back(courses[0]);
         }
         
@@ -30,7 +30,7 @@ public:
         
         return s;
         
-        
-        
     }
 };
+// in this code we are using 2 approaches
+// we are doing topological sort and also finding cycle if there is any
