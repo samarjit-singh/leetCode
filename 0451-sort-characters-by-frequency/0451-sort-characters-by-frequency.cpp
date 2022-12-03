@@ -16,12 +16,13 @@ public:
         
         sort(vec.begin(),vec.end());
         
-        string ans;
+        string ans="";
         for(auto it:vec)
         {
             while(it.first!=0)
             {
-                ans.push_back(it.second);//inserted according to the frequency
+                // ans.push_back(it.second);//inserted according to the frequency
+                ans+= it.second;
                 it.first--;
             }
         }
