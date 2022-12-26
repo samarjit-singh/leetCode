@@ -14,7 +14,7 @@ public:
             
             grid[ni][nj]=2;
             
-            count = count+1+bfs(ni,nj,grid); //return number of time bfs is called
+            count += 1+bfs(ni,nj,grid); //return number of time bfs is called
         }
         return count;
     }
@@ -42,7 +42,7 @@ public:
         
         for(int k=hits.size()-1;k>=0;k--){
             int i = hits[k][0], j = hits[k][1];
-            if(i==-1 || j == -1){ // no impace was made by this ball
+            if(i==-1 && j == -1){ // no impace was made by this ball
                 res[k] = 0 ;
                 continue;
             }
