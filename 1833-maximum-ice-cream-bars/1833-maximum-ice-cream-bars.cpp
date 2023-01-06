@@ -11,9 +11,10 @@ public:
             if(coins>=costs[i]){
                 ans++;
                 coins -= costs[i];
-            } else {
-                return i;
-            }
+            } 
+            // else {
+            //     return i;
+            // }
         }
         
         return ans;
