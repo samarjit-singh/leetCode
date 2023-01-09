@@ -2,14 +2,14 @@ class Solution {
 public:
     
     static bool cmp(pair<string,int>& a, pair<string,int>& b){
-        if(a.second == b.second){
-
+        if(a.second == b.second){ //if freq are same
             int val = a.first.compare(b.first);
-
             if(val<0) return a.second;
-            else b.second;
+            else 
+                 b.second;
+            
         }
-    return a.second > b.second;
+        return a.second>b.second;
     }
     
     
