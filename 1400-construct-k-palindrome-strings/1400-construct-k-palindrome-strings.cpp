@@ -21,17 +21,17 @@ public:
         }
         
         cout<<odd<<endl;
-        cout<<even;
+        cout<<even<<endl;
         
         if(odd>k){
             cout<<"odd>k";
             return false;
         }
             
-        if(even==k){
-            cout<<"even==k";
-           return true; 
-        }
+        // if(even==k){
+        //     cout<<"even==k";
+        //    return true; 
+        // }
             
         if(s.size()<k){
             cout<<"s.size()<k";
