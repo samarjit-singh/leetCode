@@ -15,7 +15,7 @@ public:
         for(int i=0;i<26;i++){
             if(a[i]%2 != 0){ // now check for odd occurance of characters
                 odd++;
-            } else { // now check for even occurance of characters
+            } else if(a[i]%2==0) { // now check for even occurance of characters
                 even++;
             }
         }
