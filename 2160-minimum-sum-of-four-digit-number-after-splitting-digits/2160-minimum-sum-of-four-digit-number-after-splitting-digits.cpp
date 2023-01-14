@@ -1,7 +1,7 @@
 class Solution {
 public:
     int minimumSum(int num) {
-        priority_queue<int> pq;
+        priority_queue<int,vector<int>,greater<int>> pq;
         
         while(num>0){
             int a = num%10;
@@ -19,8 +19,8 @@ public:
             pq.pop();
         }
         
-        reverse(num1.begin(),num1.end());
-        reverse(num2.begin(),num2.end());
+        // reverse(num1.begin(),num1.end());
+        // reverse(num2.begin(),num2.end());
         
         int ans = stoi(num1)+stoi(num2);
         
