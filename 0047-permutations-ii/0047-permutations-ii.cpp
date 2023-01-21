@@ -2,9 +2,9 @@ class Solution {
 public:
     
     void ok(int index,vector<int>& nums,vector<vector<int>>& ans){
-        if(index>nums.size()){
-            return;
-        }
+        // if(index>nums.size()){
+        //     return;
+        // }
         if(index == nums.size()){
             for(int i=0;i<ans.size();i++){
                 if(ans[i]==nums)
