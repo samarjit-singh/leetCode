@@ -16,7 +16,7 @@ public:
         
         string tempStr = "";
         for(int i=index ; i < s.size() && temp.size()<4;i++){
-            if(s[i]-'0' > 9) continue;
+            // if(s[i]-'0' > 9) continue;
             tempStr += s[i];
             int tempInt = stoi(tempStr);
             if(0<=tempInt && tempInt<=255){
