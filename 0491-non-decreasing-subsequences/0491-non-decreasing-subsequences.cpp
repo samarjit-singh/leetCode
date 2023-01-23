@@ -4,7 +4,7 @@ public:
     vector<vector<int>> ans;
     
     void dfs(vector<int>& nums,vector<int>& temp,int index){
-        if(temp.size()>1) ans.push_back(temp);
+        if(temp.size()>=2) ans.push_back(temp);
         
         unordered_set<int> set;
         for(int i=index;i<nums.size();i++){
