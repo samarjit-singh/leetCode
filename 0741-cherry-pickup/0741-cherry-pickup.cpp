@@ -50,6 +50,7 @@ public:
         memset(dp,-1,sizeof(dp));
         int ans = dfs(grid,0,0,0,0,n,m);
         
-        return ans == INT_MIN ? 0 : ans;
+        // return ans == INT_MIN ? 0 : ans;
+        return max(ans,0);
     }
 };
