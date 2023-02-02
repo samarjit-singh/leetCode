@@ -4,7 +4,10 @@ public:
     int help(int i, string s,set<string>&wordDict){
         if(i==s.size()) return 1;
         string temp;
-        if(dp[i]!=-1) return dp[i];
+        if(dp[i]!=-1){
+            cout<<dp[i]<<" ";
+            return dp[i];
+        } 
         for(int j=i;j<s.size();j++)
         {
             temp += s[j];
