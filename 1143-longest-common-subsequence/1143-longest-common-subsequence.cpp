@@ -20,7 +20,7 @@ public:
         int n = text1.size();
         int m = text2.size();
         
-        // vector<vector<int>> dp(1001,vector<int>(1001,-1));
+        // vector<vector<int>> dp(1001,vector<int>(1001));
         int dp[1001][1001];
         
         for(int i=0;i<=n;i++){
