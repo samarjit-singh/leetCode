@@ -1,11 +1,11 @@
 class Solution {
 public:
     int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
-        int m = obstacleGrid.size();
-        int n = obstacleGrid[0].size();
+        int m = obstacleGrid.size(); // take the size of rows
+        int n = obstacleGrid[0].size(); // and column
         
-        vector<vector<int>> dp(m, vector<int> (n,0));
-        
+        vector<vector<int>> dp(m, vector<int> (n,0)); // make a 2D vector
+         
         for(int i=0;i<m;i++){
             if( obstacleGrid[i][0] == 1 ) break;
             dp[i][0] = 1;
@@ -25,3 +25,5 @@ public:
         return dp[m-1][n-1];
     }
 };
+
+// apraoch is simple
