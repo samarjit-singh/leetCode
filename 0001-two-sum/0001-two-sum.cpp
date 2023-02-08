@@ -1,15 +1,16 @@
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
-        unordered_map<int, int> testMap; //testmap is used as hashing
-        int x = 0, y = 0;
-        for (int k = 0; k < nums.size(); k++) {
-            x = nums[k]; //x takes the element in the array 
-            y = target - x; // y takes the difference 
-            if (testMap.find(y) != testMap.end()) {
-                return {testMap[y],k};
+        unordered_map<int,int> umap;
+        int x = 0 , y = 0;
+        
+        for(int i=0;i<nums.size();i++){
+            x = nums[i];
+            y = target-x;
+            if(umap.find(y) != umap.end()){
+                return {i,umap[y]};
             }
-            testMap[x] = k;
+            umap[x] = i;
         }
         return {-1,-1};
     }
