@@ -37,3 +37,6 @@ public:
         return longestCommonSubsequence(s,t);
     }
 };
+// so the basic intution behind this Q is we know how to find the common subsequence
+// and we also know the reverse of pallindromic string will also be a pallindrome
+// so we just pass the string and its reverse and the resultant will be a pallindrome
