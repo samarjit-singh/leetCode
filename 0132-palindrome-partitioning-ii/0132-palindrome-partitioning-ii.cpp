@@ -12,7 +12,7 @@ public:
     }
     
     int util(int i,int n,string &s,vector<int>& dp){
-        if(i >= n or isPalindrom(i, n, s)) return 0;
+        if(i == n) return 0;
         
         int minCost = INT_MAX;
         
