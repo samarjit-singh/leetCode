@@ -1,6 +1,7 @@
 class Solution {
 public:
     
+//     this search fundtion return the index
     int search(vector<int> &st,int k){
         int l = 0;
         int r = st.size()-1;
@@ -28,14 +29,15 @@ public:
         
         bool r=0,s=0,t=0;
         
-        if(l>1){
+        if(l>1){ // we cannot do a jump of 0 length need to be >=1
+            
+        }
+        
+        if(l>0){
             int a = search(st,st[index]+l-1);
             if(a!=-1){
                 r=find(a,st,dp,l-1);
             }
-        }
-        
-        if(l>0){
             int b = search(st,st[index]+l);
             if(b!=-1){
                 s=find(b,st,dp,l);
