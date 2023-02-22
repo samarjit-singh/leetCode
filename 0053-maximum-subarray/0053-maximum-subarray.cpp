@@ -5,7 +5,7 @@ public:
         int currSum = maxSum;
         
         for(int i=1;i<nums.size();i++){
-            if(currSum>=0){
+            if(currSum >= 0){
                 currSum += nums[i];
             } else {
                 currSum = nums[i];
@@ -13,7 +13,7 @@ public:
             
             if(currSum>maxSum){
                 maxSum = currSum;
-            }   
+            }
         }
         
         return maxSum;
