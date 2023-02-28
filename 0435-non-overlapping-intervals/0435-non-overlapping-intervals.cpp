@@ -3,7 +3,7 @@ public:
     int eraseOverlapIntervals(vector<vector<int>>& intervals) {
         if(intervals.size()<2) return 0;
         
-//         soting based on second element
+//         sorting based on second element
         sort(intervals.begin(), intervals.end(), [](const vector<int>& a, const vector<int>& b){
             return a[0]<b[0];
         });
