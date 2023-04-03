@@ -12,8 +12,8 @@ public:
             
             if(candidates[i]>target) break;
             
-            if(i  > index && candidates[i] == candidates[i-1])
-                continue;
+//             never understood the meaning of this line
+            if(i  > index && candidates[i] == candidates[i-1]) continue;
             
             currComb.push_back(candidates[i]);
             ok(candidates,target-candidates[i],i+1,currComb,ans);
