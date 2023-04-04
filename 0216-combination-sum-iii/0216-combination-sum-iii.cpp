@@ -1,20 +1,22 @@
 class Solution {
 public:
     
-    void ok(int currIndex,vector<vector<int>>& ans,vector<int>& currComb,int target,int k,int n){
+    void ok(int k,int n,int index,vector<vector<int>>& ans,vector<int>& currComb,int target){
         
         if(currComb.size() == k){
-            if(target==0){
+            if(target == 0){
                 ans.push_back(currComb);
                 return;
             }
         }
         
-        for(int i=currIndex;i<=9;i++){
-            if(currComb.size()>=k && target != 0) break;
-            if(i>target) break;
+        for(int i=index;i<=9;i++){
+            
+            // if(currComb.size() >=k && target!=0) break;
+            // if(i>target) break;
+            
             currComb.push_back(i);
-            ok(i+1,ans,currComb,target-i,k,n);
+            ok(k,n,i+1,ans,currComb,target-i);
             currComb.pop_back();
         }
         
@@ -23,10 +25,7 @@ public:
     vector<vector<int>> combinationSum3(int k, int n) {
         vector<vector<int>> ans;
         vector<int> currComb;
-        if(n<k){
-            return ans;
-        }
-        ok(1,ans,currComb,n,k,n);
+        ok(k,n,1,ans,currComb,n);
         return ans;
     }
 };
