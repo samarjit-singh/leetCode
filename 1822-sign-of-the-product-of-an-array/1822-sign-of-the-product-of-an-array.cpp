@@ -6,8 +6,7 @@ public:
             if(x == 0){
                 ans = 0;
             } else if(x<0){
-                int var = -1;
-                ans *= var;
+                ans *= -1;
             } else {
                 ans *= 1;
             }
