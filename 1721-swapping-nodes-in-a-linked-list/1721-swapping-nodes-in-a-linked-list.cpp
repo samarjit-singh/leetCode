@@ -11,31 +11,30 @@
 class Solution {
 public:
     ListNode* swapNodes(ListNode* head, int k) {
-        ListNode *p1 = head, *p2 = head, *kth = NULL;
+        if(head == nullptr) return head;
         
-        while(k>1){
-            p1 = p1->next;
-            k--;
+        vector<int> nums;
+        
+        ListNode* temp = head;
+        
+        while(temp!=NULL){
+            nums.push_back(temp->val);
+            temp = temp->next;
         }
         
-        kth = p1;
-        p1 = p1->next;
+        swap(nums[k-1],nums[nums.size()-k]);
         
-        while(p1 != NULL){
-            p1 = p1->next;
-            p2 = p2->next;
+        
+        temp=head;
+        int i=0;
+        while(temp!=NULL){
+            temp->val = nums[i];
+            temp=temp->next;
+            i++;
         }
         
-        cout<<kth->val;
-        swap(p2->val,kth->val);        
         
         return head;
         
     }
 };
-
-// so in this Q be basically move p1 till k 
-// then put p1 value in k
-// and move p1 by one position ahead
-// now move p1 and p2 till p1 becomes NULL
-// NOW SWAP P2 AND KTH
