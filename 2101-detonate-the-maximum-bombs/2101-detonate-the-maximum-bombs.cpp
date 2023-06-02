@@ -1,4 +1,4 @@
-#define ll long long int
+// #define ll long long int
 
 class Solution {
 public:
@@ -19,15 +19,15 @@ public:
         
         for(int i=0;i<n;i++){
             
-            ll x1 = bombs[i][0];
-            ll y1 = bombs[i][1];
-            ll r1 = bombs[i][2];
+            long long x1 = bombs[i][0];
+            long long y1 = bombs[i][1];
+            long long r1 = bombs[i][2];
             
             for(int j=0;j<n;j++){
                 
                 if(i!=j){ // cause bomb will defuse itself
-                    ll x = abs(x1-bombs[j][0]);
-                    ll y = abs(y1-bombs[j][1]);
+                    long long x = abs(x1-bombs[j][0]);
+                    long long y = abs(y1-bombs[j][1]);
                     if(x*x+y*y<=r1*r1){
                         gr[i].push_back(j);
                     }
