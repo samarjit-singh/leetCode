@@ -12,14 +12,15 @@
 class Solution {
 public:
     
-    vector<TreeNode*> recurse(int l,int r){
-        if(l>r)
+    vector<TreeNode*> util(int l,int r){
+        if(l>r){
             return {NULL};
+        }
         
         vector<TreeNode*> ans;
         for(int root=l;root<=r;root++){
-            vector<TreeNode*> left = recurse(l,root-1);
-            vector<TreeNode*> right = recurse(root+1,r);
+            vector<TreeNode*> left = util(l,root-1);
+            vector<TreeNode*> right = util(root+1,r);
             for(auto Node_l:left){
                 for(auto Node_r:right){
                     TreeNode* node = new TreeNode(root);
@@ -33,6 +34,6 @@ public:
     }
     
     vector<TreeNode*> generateTrees(int n) {
-        return  recurse(1,n);
+        return util(1,n);
     }
 };
