@@ -1,0 +1,35 @@
+class Solution {
+public:
+    
+    bool can_form_pair(vector<int>& nums,int mid,int p){
+        int count = 0;
+        
+        for(int i=0;i<nums.size()-1 && count < p;i++){
+            if(nums[i+1]-nums[i]<=mid){
+                count++;
+                i++;
+            }
+        }
+        
+        return count>=p;
+    }
+    
+    int minimizeMax(vector<int>& nums, int p) {
+        
+        sort(nums.begin(),nums.end());
+        
+        int left = 0, right = nums.back() - nums.front();
+        
+        while(left < right){
+            int mid = (left + right)/2;
+            
+            if(can_form_pair(nums,mid,p)){
+                right = mid;
+            } else {
+                left = mid+1;
+            }
+        }
+        
+        return left;
+    }
+};
