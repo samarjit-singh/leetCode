@@ -1,7 +1,7 @@
 class Solution {
 public:
     int uniquePaths(int m, int n) {
-        vector<vector<int>> paths(n,vector<int>(m)); 
+        vector<vector<int>> paths(n,vector<int>(m)); //making the matrix as 7X3
         
         for(int c=0;c<m;c++){
             paths[n-1][c] = 1;
@@ -21,3 +21,4 @@ public:
         
     }
 };
+// applied bottom up appraoach
