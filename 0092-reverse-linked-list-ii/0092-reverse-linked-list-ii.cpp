@@ -26,7 +26,9 @@ public:
         }
         
         ListNode* start = prev;
+        // cout<<start->val<<endl;
         ListNode* tail = curr;
+        // cout<<tail->val<<endl;
         
         ListNode* temp = NULL;
         
