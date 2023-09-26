@@ -1,34 +1,31 @@
 class Solution {
 public:
     string removeDuplicateLetters(string s) {
-        unordered_map<char, int> charCount;
-        unordered_map<char, bool> used;
-        string result = "";
-
-        // Count the frequency of each character in the input string
-        for (char c : s) {
-            charCount[c]++;
+        unordered_map<char,int> umap;
+        unordered_map<char,bool> used;
+        
+        for(auto x:s){
+            umap[x]++;
         }
-
-        for (char c : s) {
-            charCount[c]--; // Decrease the count of the current character
-
-            if (used[c]) {
-                continue; // Skip characters already used
+        
+        string ans = "";
+        
+        for(auto x:s){
+            umap[x]--;
+            
+            if(used[x]){
+                continue;
             }
-
-            // Remove characters from the result string while they are larger
-            // and there are more occurrences later in the string
-            while (!result.empty() && c < result.back() && charCount[result.back()] > 0) {
-                used[result.back()] = false;
-                result.pop_back();
+            
+            while(!ans.empty() && x<ans.back() && umap[ans.back()] > 0){
+                used[ans.back()] = false;
+                ans.pop_back();
             }
-
-            // Append the current character to the result string
-            result += c;
-            used[c] = true;
+            
+            ans += x;
+            used[x] = true;
         }
-
-        return result;
+        
+        return ans;
     }
 };
