@@ -39,7 +39,7 @@ public:
     }
     
     bool validateBinaryTreeNodes(int n, vector<int>& leftChild, vector<int>& rightChild) {
-        vector<bool> childCount(n,false);
+        vector<bool> childCount(n,false); // check if node i has a child or not
         
         for(auto child:leftChild){
 //             check if node has a child
@@ -51,20 +51,17 @@ public:
         for(auto child:rightChild){
 //             check if node has a child
             if(child != -1){
-                // if(childCount[child]){ // if rightChild already has a parent
-                //     return false;
-                // }
                 childCount[child] = true;
             }
         }
         
         int root = -1;
         for(int i=0;i<n;i++){
-            if(!childCount[i]){
+            if(childCount[i] == false){
                 if(root == -1)
                     root = i;
-                else
-                    return false;
+                // else
+                //     return false;
             }
         }
         
