@@ -1,24 +1,21 @@
 class Solution {
 public:
-    int uniquePaths(int m, int n) {
-        vector<vector<int>> paths(n,vector<int>(m)); //making the matrix as 7X3
+    
+    int util(int i,int j,int n,int m,vector<vector<int>>& dp){
+        if(i>=n || j>=m) return 0;
+        if(i==n-1 && j == m-1) return 1;
         
-        for(int c=0;c<m;c++){
-            paths[n-1][c] = 1;
-        }
+        if(dp[i][j] != -1) 
+            return dp[i][j];
+        else {
+            return dp[i][j] = util(i+1,j,n,m,dp) + util(i,j+1,n,m,dp);
+        } 
         
-        for(int r=0;r<n;r++){
-            paths[r][m-1] = 1;
-        }
-        
-        for(int r=n-2;r>=0;r--){
-            for(int c=m-2;c>=0;c--){
-                paths[r][c] = paths[r+1][c] + paths[r][c+1];
-            }
-        }
-        
-        return paths[0][0];
         
     }
+    
+    int uniquePaths(int m, int n) {
+        vector<vector<int>> dp(n,vector<int>(m,-1));
+        return util(0,0,n,m,dp);
+    }
 };
-// applied bottom up appraoach
