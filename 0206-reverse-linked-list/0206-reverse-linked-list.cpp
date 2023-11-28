@@ -21,7 +21,6 @@ public:
             prev = temp;
             temp = nextptr;
         }
-        
         return prev;
     }
 };
