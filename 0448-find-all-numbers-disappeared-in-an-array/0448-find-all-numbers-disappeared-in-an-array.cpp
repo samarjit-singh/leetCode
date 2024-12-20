@@ -1,7 +1,6 @@
 class Solution {
 public:
     vector<int> findDisappearedNumbers(vector<int>& nums) {
-        sort(nums.begin(), nums.end());
         vector<int> sol;
         set<int> numsSet;
 
