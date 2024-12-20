@@ -9,8 +9,6 @@ public:
             numsSet.insert(nums[i]);
         }
 
-        vector<int> v(numsSet.begin(), numsSet.end());
-
         for(int i=1;i<nums.size()+1;i++){
             if (numsSet.find(i) == numsSet.end()) {
                 sol.push_back(i);
