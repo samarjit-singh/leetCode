@@ -2,16 +2,16 @@ class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
         unordered_map<int,int> umap;
-        int x = 0 , y = 0;
-        
+
         for(int i=0;i<nums.size();i++){
-            x = nums[i];
-            y = target-x;
-            if(umap.find(y) != umap.end()){
-                return {i,umap[y]};
+            // if the complement exisit in the umap if not the add the element in umap with its index
+            if(umap.find(target-nums[i]) == umap.end()){
+                umap[nums[i]] = i;
+            } else {
+                return {umap[target-nums[i]], i};
             }
-            umap[x] = i;
         }
+
         return {-1,-1};
     }
 };
