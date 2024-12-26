@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0054-spiral-matrix](https://github.com/samarjit-singh/leetCode/tree/master/0054-spiral-matrix) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/samarjit-singh/leetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0200-number-of-islands](https://github.com/samarjit-singh/leetCode/tree/master/0200-number-of-islands) |
+| [0209-minimum-size-subarray-sum](https://github.com/samarjit-singh/leetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/samarjit-singh/leetCode/tree/master/0219-contains-duplicate-ii) |
 | [0268-missing-number](https://github.com/samarjit-singh/leetCode/tree/master/0268-missing-number) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/samarjit-singh/leetCode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
@@ -35,6 +36,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/samarjit-singh/leetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0268-missing-number](https://github.com/samarjit-singh/leetCode/tree/master/0268-missing-number) |
 ## Bit Manipulation
 |  |
@@ -95,5 +97,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sliding Window
 |  |
 | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/samarjit-singh/leetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/samarjit-singh/leetCode/tree/master/0219-contains-duplicate-ii) |
+## Prefix Sum
+|  |
+| ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/samarjit-singh/leetCode/tree/master/0209-minimum-size-subarray-sum) |
 <!---LeetCode Topics End-->
