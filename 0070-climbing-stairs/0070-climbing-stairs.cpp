@@ -1,15 +1,21 @@
 class Solution {
 public:
     int climbStairs(int n) {
-        vector<int> ans;
-        ans.push_back(0);
-        for(int i=1;i<46;i++){
-            if(i<4){
-                ans.push_back(i);
-            } else {
-                ans.push_back(ans[i-1]+ans[i-2]);
-            }
+        vector<int> dp(n+1,0);
+
+        if(n==1){
+            return 1;
         }
-        return ans[n];
+
+        dp[1] = 1;
+        dp[2] = 2;
+
+        for(int i=3;i<dp.size();i++){
+            dp[i] = dp[i-1]+dp[i-2];
+        }
+
+        
+
+        return dp[n];
     }
 };
