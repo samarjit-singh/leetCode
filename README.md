@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0015-3sum](https://github.com/samarjit-singh/leetCode/tree/master/0015-3sum) |
 | [0053-maximum-subarray](https://github.com/samarjit-singh/leetCode/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/samarjit-singh/leetCode/tree/master/0054-spiral-matrix) |
+| [0078-subsets](https://github.com/samarjit-singh/leetCode/tree/master/0078-subsets) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/samarjit-singh/leetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/samarjit-singh/leetCode/tree/master/0136-single-number) |
 | [0200-number-of-islands](https://github.com/samarjit-singh/leetCode/tree/master/0200-number-of-islands) |
@@ -46,6 +47,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/samarjit-singh/leetCode/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/samarjit-singh/leetCode/tree/master/0136-single-number) |
 | [0268-missing-number](https://github.com/samarjit-singh/leetCode/tree/master/0268-missing-number) |
 | [0338-counting-bits](https://github.com/samarjit-singh/leetCode/tree/master/0338-counting-bits) |
@@ -136,5 +138,6 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Backtracking
 |  |
 | ------- |
+| [0078-subsets](https://github.com/samarjit-singh/leetCode/tree/master/0078-subsets) |
 | [0800-letter-case-permutation](https://github.com/samarjit-singh/leetCode/tree/master/0800-letter-case-permutation) |
 <!---LeetCode Topics End-->
