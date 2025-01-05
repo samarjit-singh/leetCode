@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0046-permutations](https://github.com/samarjit-singh/leetCode/tree/master/0046-permutations) |
 | [0053-maximum-subarray](https://github.com/samarjit-singh/leetCode/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/samarjit-singh/leetCode/tree/master/0054-spiral-matrix) |
+| [0068-text-justification](https://github.com/samarjit-singh/leetCode/tree/master/0068-text-justification) |
 | [0078-subsets](https://github.com/samarjit-singh/leetCode/tree/master/0078-subsets) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/samarjit-singh/leetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/samarjit-singh/leetCode/tree/master/0136-single-number) |
@@ -79,6 +80,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/samarjit-singh/leetCode/tree/master/0054-spiral-matrix) |
+| [0068-text-justification](https://github.com/samarjit-singh/leetCode/tree/master/0068-text-justification) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -139,6 +141,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0068-text-justification](https://github.com/samarjit-singh/leetCode/tree/master/0068-text-justification) |
 | [0800-letter-case-permutation](https://github.com/samarjit-singh/leetCode/tree/master/0800-letter-case-permutation) |
 ## Backtracking
 |  |
