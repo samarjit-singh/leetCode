@@ -3,7 +3,7 @@ public:
     int evalRPN(vector<string>& tokens) {
         stack<int> stack;
 
-        for(const auto& token : tokens){
+        for(auto& token : tokens){
             if (isdigit(token[0]) || (token.size() > 1)) { // or case is for negative number 
                 stack.push(stoi(token));
             } else {
