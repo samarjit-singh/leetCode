@@ -94,6 +94,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/samarjit-singh/leetCode/tree/master/0200-number-of-islands) |
+| [0637-average-of-levels-in-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [1492-time-needed-to-inform-all-employees](https://github.com/samarjit-singh/leetCode/tree/master/1492-time-needed-to-inform-all-employees) |
 ## Breadth-First Search
 |  |
@@ -101,6 +102,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0200-number-of-islands](https://github.com/samarjit-singh/leetCode/tree/master/0200-number-of-islands) |
 | [0279-perfect-squares](https://github.com/samarjit-singh/leetCode/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/samarjit-singh/leetCode/tree/master/0322-coin-change) |
+| [0637-average-of-levels-in-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [1492-time-needed-to-inform-all-employees](https://github.com/samarjit-singh/leetCode/tree/master/1492-time-needed-to-inform-all-employees) |
 ## Union Find
 |  |
@@ -195,6 +197,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Tree
 |  |
 | ------- |
+| [0637-average-of-levels-in-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [1492-time-needed-to-inform-all-employees](https://github.com/samarjit-singh/leetCode/tree/master/1492-time-needed-to-inform-all-employees) |
 ## Queue
 |  |
@@ -205,4 +208,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2292-counting-words-with-a-given-prefix](https://github.com/samarjit-singh/leetCode/tree/master/2292-counting-words-with-a-given-prefix) |
+## Binary Tree
+|  |
+| ------- |
+| [0637-average-of-levels-in-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/0637-average-of-levels-in-binary-tree) |
 <!---LeetCode Topics End-->
