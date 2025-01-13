@@ -12,23 +12,31 @@
 class Solution {
 public:
     int minDepth(TreeNode* root) {
-        if (root==NULL){ // if root is NULL
-            return 0; // return NULL
+        if (root == nullptr) {
+            return 0;
         }
         
-        if(root->right == NULL && root->left==NULL){
-            return 1;
+        queue<pair<TreeNode*, int>> q;
+
+        q.push({root, 1});
+
+        while(!q.empty()){
+            auto node = q.front();
+            q.pop();
+
+            if(!node.first->left && !node.first->right){
+                return node.second;
+            }
+
+            if(node.first->left){
+                q.push({node.first->left, node.second + 1});
+            }
+
+            if(node.first->right){
+                q.push({node.first->right, node.second + 1});
+            }
         }
-        
-        if(root->left == NULL){
-            return 1 + minDepth(root->right);
-        }
-        
-        if(root->right == NULL){
-            return 1 + minDepth(root->left);
-        }
-        
-//         else return root is at level 1 so 1 + maximum of root->left or root right
-        return 1 + min(minDepth(root->left),minDepth(root->right));
+
+        return 0;
     }
 };
