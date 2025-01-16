@@ -98,6 +98,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0111-minimum-depth-of-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/samarjit-singh/leetCode/tree/master/0112-path-sum) |
 | [0200-number-of-islands](https://github.com/samarjit-singh/leetCode/tree/master/0200-number-of-islands) |
+| [0226-invert-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/0543-diameter-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [1492-time-needed-to-inform-all-employees](https://github.com/samarjit-singh/leetCode/tree/master/1492-time-needed-to-inform-all-employees) |
@@ -110,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0111-minimum-depth-of-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/samarjit-singh/leetCode/tree/master/0112-path-sum) |
 | [0200-number-of-islands](https://github.com/samarjit-singh/leetCode/tree/master/0200-number-of-islands) |
+| [0226-invert-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/0226-invert-binary-tree) |
 | [0279-perfect-squares](https://github.com/samarjit-singh/leetCode/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/samarjit-singh/leetCode/tree/master/0322-coin-change) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/0637-average-of-levels-in-binary-tree) |
@@ -212,6 +214,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0104-maximum-depth-of-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/samarjit-singh/leetCode/tree/master/0112-path-sum) |
+| [0226-invert-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/0543-diameter-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [1492-time-needed-to-inform-all-employees](https://github.com/samarjit-singh/leetCode/tree/master/1492-time-needed-to-inform-all-employees) |
@@ -232,6 +235,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0104-maximum-depth-of-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/samarjit-singh/leetCode/tree/master/0112-path-sum) |
+| [0226-invert-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/0226-invert-binary-tree) |
 | [0543-diameter-of-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/0543-diameter-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/0637-average-of-levels-in-binary-tree) |
 <!---LeetCode Topics End-->
