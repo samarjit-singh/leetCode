@@ -9,22 +9,30 @@
  */
 class Solution {
 public:
+
+    TreeNode* util(TreeNode* root, TreeNode* p, TreeNode* q){
+
+        if(root == nullptr){
+            return root;
+        }
+
+        TreeNode* left = util(root->left, p, q);
+        TreeNode* right = util(root->right, p, q);
+
+        if (left && right) {
+            return root;
+        }
+
+        if (root->val == p->val || root->val == q->val) {
+            return root;
+        }
+
+        return left ? left : right;
+    }
+
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) {
-        if(root == nullptr || root == p || root == q){
-            return root;
-        }
+        TreeNode* res = util(root, p, q);
 
-        auto left =  lowestCommonAncestor(root->left, p, q);
-        auto right =  lowestCommonAncestor(root->right, p, q);
-
-        if(left != nullptr && right != nullptr) {
-            return root;
-        }
-
-        if(left != nullptr){
-            return left;
-        }
-
-        return right;
+        return res;
     }
 };
