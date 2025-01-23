@@ -11,35 +11,29 @@
  */
 class Solution {
 public:
-    
-    vector<int> nodes;
-    void inOrderTraversal(TreeNode* root){
-        if(root == nullptr){
-            return;
-        }
-        
-        inOrderTraversal(root->left);
-        nodes.push_back(root->val);
-        inOrderTraversal(root->right);
-        
-    }
     int getMinimumDifference(TreeNode* root) {
-        
-        inOrderTraversal(root);
-        
-        int minDiff = abs(nodes[0]-nodes[1]);
-        
-        cout<<minDiff<<endl;
-        
-        for(int i=1;i<nodes.size();i++){
-            int currDiff = abs(nodes[i]-nodes[i-1]);
-            
-            if(currDiff<minDiff){
-                minDiff = currDiff;
+        int diff = INT_MAX;
+        int prevEle = -1;
+        stack<TreeNode*> s;
+
+       while (root || !s.empty()) {
+            while (root) {
+                s.push(root);
+                root = root->left;
             }
+
+            root = s.top();
+            s.pop();
             
+            if (prevEle != -1) {
+                diff = min(diff, abs(root->val - prevEle));
+            }
+            prevEle = root->val;
+
+            // Move to the right subtree.
+            root = root->right;
         }
-        
-        return minDiff;
+
+        return diff;
     }
 };
