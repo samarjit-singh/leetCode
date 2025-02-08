@@ -30,6 +30,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0463-island-perimeter](https://github.com/samarjit-singh/leetCode/tree/master/0463-island-perimeter) |
 | [0621-task-scheduler](https://github.com/samarjit-singh/leetCode/tree/master/0621-task-scheduler) |
 | [0875-longest-mountain-in-array](https://github.com/samarjit-singh/leetCode/tree/master/0875-longest-mountain-in-array) |
+| [0990-verifying-an-alien-dictionary](https://github.com/samarjit-singh/leetCode/tree/master/0990-verifying-an-alien-dictionary) |
 | [1014-k-closest-points-to-origin](https://github.com/samarjit-singh/leetCode/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/samarjit-singh/leetCode/tree/master/1019-squares-of-a-sorted-array) |
 | [1306-minimum-absolute-difference](https://github.com/samarjit-singh/leetCode/tree/master/1306-minimum-absolute-difference) |
@@ -50,6 +51,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/samarjit-singh/leetCode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0621-task-scheduler](https://github.com/samarjit-singh/leetCode/tree/master/0621-task-scheduler) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/samarjit-singh/leetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0990-verifying-an-alien-dictionary](https://github.com/samarjit-singh/leetCode/tree/master/0990-verifying-an-alien-dictionary) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/samarjit-singh/leetCode/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 ## Math
 |  |
@@ -215,6 +217,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0020-valid-parentheses](https://github.com/samarjit-singh/leetCode/tree/master/0020-valid-parentheses) |
 | [0068-text-justification](https://github.com/samarjit-singh/leetCode/tree/master/0068-text-justification) |
 | [0800-letter-case-permutation](https://github.com/samarjit-singh/leetCode/tree/master/0800-letter-case-permutation) |
+| [0990-verifying-an-alien-dictionary](https://github.com/samarjit-singh/leetCode/tree/master/0990-verifying-an-alien-dictionary) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/samarjit-singh/leetCode/tree/master/2292-counting-words-with-a-given-prefix) |
 ## Backtracking
 |  |
