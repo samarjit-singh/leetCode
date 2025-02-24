@@ -146,6 +146,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0803-cheapest-flights-within-k-stops](https://github.com/samarjit-singh/leetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1285-balance-a-binary-search-tree](https://github.com/samarjit-singh/leetCode/tree/master/1285-balance-a-binary-search-tree) |
 | [1492-time-needed-to-inform-all-employees](https://github.com/samarjit-singh/leetCode/tree/master/1492-time-needed-to-inform-all-employees) |
+| [1558-course-schedule-iv](https://github.com/samarjit-singh/leetCode/tree/master/1558-course-schedule-iv) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -171,6 +172,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0803-cheapest-flights-within-k-stops](https://github.com/samarjit-singh/leetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1036-rotting-oranges](https://github.com/samarjit-singh/leetCode/tree/master/1036-rotting-oranges) |
 | [1492-time-needed-to-inform-all-employees](https://github.com/samarjit-singh/leetCode/tree/master/1492-time-needed-to-inform-all-employees) |
+| [1558-course-schedule-iv](https://github.com/samarjit-singh/leetCode/tree/master/1558-course-schedule-iv) |
 ## Union Find
 |  |
 | ------- |
@@ -367,6 +369,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0210-course-schedule-ii](https://github.com/samarjit-singh/leetCode/tree/master/0210-course-schedule-ii) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/samarjit-singh/leetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1039-find-the-town-judge](https://github.com/samarjit-singh/leetCode/tree/master/1039-find-the-town-judge) |
+| [1558-course-schedule-iv](https://github.com/samarjit-singh/leetCode/tree/master/1558-course-schedule-iv) |
 ## Shortest Path
 |  |
 | ------- |
@@ -376,4 +379,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0207-course-schedule](https://github.com/samarjit-singh/leetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/samarjit-singh/leetCode/tree/master/0210-course-schedule-ii) |
+| [1558-course-schedule-iv](https://github.com/samarjit-singh/leetCode/tree/master/1558-course-schedule-iv) |
 <!---LeetCode Topics End-->
