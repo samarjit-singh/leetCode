@@ -142,6 +142,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0543-diameter-of-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/0543-diameter-of-binary-tree) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/samarjit-singh/leetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0684-redundant-connection](https://github.com/samarjit-singh/leetCode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/samarjit-singh/leetCode/tree/master/0695-max-area-of-island) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/samarjit-singh/leetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1285-balance-a-binary-search-tree](https://github.com/samarjit-singh/leetCode/tree/master/1285-balance-a-binary-search-tree) |
@@ -167,6 +168,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0530-minimum-absolute-difference-in-bst](https://github.com/samarjit-singh/leetCode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/samarjit-singh/leetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0684-redundant-connection](https://github.com/samarjit-singh/leetCode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/samarjit-singh/leetCode/tree/master/0695-max-area-of-island) |
 | [0753-open-the-lock](https://github.com/samarjit-singh/leetCode/tree/master/0753-open-the-lock) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/samarjit-singh/leetCode/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -178,6 +180,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0130-surrounded-regions](https://github.com/samarjit-singh/leetCode/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/samarjit-singh/leetCode/tree/master/0200-number-of-islands) |
+| [0684-redundant-connection](https://github.com/samarjit-singh/leetCode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/samarjit-singh/leetCode/tree/master/0695-max-area-of-island) |
 ## Dynamic Programming
 |  |
@@ -367,6 +370,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0133-clone-graph](https://github.com/samarjit-singh/leetCode/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/samarjit-singh/leetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/samarjit-singh/leetCode/tree/master/0210-course-schedule-ii) |
+| [0684-redundant-connection](https://github.com/samarjit-singh/leetCode/tree/master/0684-redundant-connection) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/samarjit-singh/leetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1039-find-the-town-judge](https://github.com/samarjit-singh/leetCode/tree/master/1039-find-the-town-judge) |
 | [1558-course-schedule-iv](https://github.com/samarjit-singh/leetCode/tree/master/1558-course-schedule-iv) |
