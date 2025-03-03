@@ -41,6 +41,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1306-minimum-absolute-difference](https://github.com/samarjit-singh/leetCode/tree/master/1306-minimum-absolute-difference) |
 | [1395-minimum-time-visiting-all-points](https://github.com/samarjit-singh/leetCode/tree/master/1395-minimum-time-visiting-all-points) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/samarjit-singh/leetCode/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/samarjit-singh/leetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2195-time-needed-to-buy-tickets](https://github.com/samarjit-singh/leetCode/tree/master/2195-time-needed-to-buy-tickets) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/samarjit-singh/leetCode/tree/master/2292-counting-words-with-a-given-prefix) |
 ## Hash Table
@@ -69,6 +70,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0279-perfect-squares](https://github.com/samarjit-singh/leetCode/tree/master/0279-perfect-squares) |
 | [1014-k-closest-points-to-origin](https://github.com/samarjit-singh/leetCode/tree/master/1014-k-closest-points-to-origin) |
 | [1395-minimum-time-visiting-all-points](https://github.com/samarjit-singh/leetCode/tree/master/1395-minimum-time-visiting-all-points) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/samarjit-singh/leetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Binary Search
 |  |
 | ------- |
@@ -82,6 +84,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0268-missing-number](https://github.com/samarjit-singh/leetCode/tree/master/0268-missing-number) |
 | [0338-counting-bits](https://github.com/samarjit-singh/leetCode/tree/master/0338-counting-bits) |
 | [0800-letter-case-permutation](https://github.com/samarjit-singh/leetCode/tree/master/0800-letter-case-permutation) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/samarjit-singh/leetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Sorting
 |  |
 | ------- |
@@ -207,6 +210,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0875-longest-mountain-in-array](https://github.com/samarjit-singh/leetCode/tree/master/0875-longest-mountain-in-array) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/samarjit-singh/leetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Sliding Window
 |  |
 | ------- |
@@ -252,6 +256,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0077-combinations](https://github.com/samarjit-singh/leetCode/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/samarjit-singh/leetCode/tree/master/0078-subsets) |
 | [0800-letter-case-permutation](https://github.com/samarjit-singh/leetCode/tree/master/0800-letter-case-permutation) |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/samarjit-singh/leetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Linked List
 |  |
 | ------- |
@@ -384,4 +389,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0207-course-schedule](https://github.com/samarjit-singh/leetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/samarjit-singh/leetCode/tree/master/0210-course-schedule-ii) |
 | [1558-course-schedule-iv](https://github.com/samarjit-singh/leetCode/tree/master/1558-course-schedule-iv) |
+## Combinatorics
+|  |
+| ------- |
+| [1993-sum-of-all-subset-xor-totals](https://github.com/samarjit-singh/leetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
 <!---LeetCode Topics End-->
