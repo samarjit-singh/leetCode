@@ -1,28 +1,32 @@
 class Solution {
 public:
-    vector<vector<int>> ans;
-    
-    void ok(int index,vector<int>& nums){
-        
-        if(index == nums.size()){
-            for(int i=0;i<ans.size();i++){
-                if(ans[i] == nums){
+
+    void util(int start, vector<int>& nums, vector<vector<int>>& res) {
+
+        if(start == nums.size()){
+            for(int i=0;i<res.size();i++){
+                if(res[i] == nums){
                     return;
                 }
             }
-            ans.push_back(nums);
+            res.push_back(nums);
             return;
         }
-        
-        for(int i=index;i<nums.size();i++){
-            swap(nums[i],nums[index]);
-            ok(index+1,nums);
-            swap(nums[i],nums[index]);
+
+
+        for(int i=start; i<nums.size();i++){
+            swap(nums[i], nums[start]);
+            util(start+1, nums, res);
+            swap(nums[i], nums[start]);
         }
+
     }
-    
+
     vector<vector<int>> permuteUnique(vector<int>& nums) {
-        ok(0,nums);
-        return ans;
+        vector<vector<int>> res;
+
+        util(0, nums, res);
+
+        return res;
     }
 };
