@@ -12,6 +12,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0039-combination-sum](https://github.com/samarjit-singh/leetCode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/samarjit-singh/leetCode/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/samarjit-singh/leetCode/tree/master/0046-permutations) |
+| [0047-permutations-ii](https://github.com/samarjit-singh/leetCode/tree/master/0047-permutations-ii) |
 | [0053-maximum-subarray](https://github.com/samarjit-singh/leetCode/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/samarjit-singh/leetCode/tree/master/0054-spiral-matrix) |
 | [0068-text-justification](https://github.com/samarjit-singh/leetCode/tree/master/0068-text-justification) |
@@ -94,6 +95,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0015-3sum](https://github.com/samarjit-singh/leetCode/tree/master/0015-3sum) |
+| [0047-permutations-ii](https://github.com/samarjit-singh/leetCode/tree/master/0047-permutations-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/samarjit-singh/leetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0268-missing-number](https://github.com/samarjit-singh/leetCode/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/samarjit-singh/leetCode/tree/master/0347-top-k-frequent-elements) |
@@ -260,6 +262,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0039-combination-sum](https://github.com/samarjit-singh/leetCode/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/samarjit-singh/leetCode/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/samarjit-singh/leetCode/tree/master/0046-permutations) |
+| [0047-permutations-ii](https://github.com/samarjit-singh/leetCode/tree/master/0047-permutations-ii) |
 | [0077-combinations](https://github.com/samarjit-singh/leetCode/tree/master/0077-combinations) |
 | [0078-subsets](https://github.com/samarjit-singh/leetCode/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/samarjit-singh/leetCode/tree/master/0090-subsets-ii) |
