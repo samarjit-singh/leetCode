@@ -1,38 +1,34 @@
 class Solution {
 public:
-    
-    void util(int num,string output,string options[],vector<string>& ans){
-        
-        if(num == 0){
-            ans.push_back(output);
+    vector<string> letters = {"", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
+
+    void backtrack(string subStr, vector<string>& result, vector<string>& letterComb, int index) {
+        if(index == letterComb.size()) {
+            result.push_back(subStr);
             return;
         }
-        
-        int n1 = num%10;
-        string s1 = options[n1];
-        for(int i=0;i<s1.size();i++){
-            util(num/10,s1[i]+output,options,ans);
+
+        for(char c:letterComb[index]){
+            backtrack(subStr+c, result, letterComb, index + 1);
         }
-        
-        
-        
+
     }
-    
+
     vector<string> letterCombinations(string digits) {
-        vector<string> ans1;
-        
-        if(digits==""){
-            return ans1;
+        if (digits.empty()) return {}; 
+
+        vector<string> letterComb;
+        vector<string> result;
+
+        for(int i=0;i<digits.size();i++){
+            int num = digits[i] - '0';
+            if (num >= 2 && num <= 9) { 
+                letterComb.push_back(letters[num - 1]);
+            }
         }
-        
-        int num = stoi(digits);
-        
-        string output = "";
-        string options[] = {"", "", "abc","def","ghi","jkl","mno","pqrs","tuv","wxyz"};
-        
-        util(num,output,options,ans1);
-        
-        return ans1;
-        
+
+        backtrack("", result, letterComb, 0);
+
+        return result;
     }
 };
