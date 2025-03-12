@@ -34,6 +34,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0347-top-k-frequent-elements](https://github.com/samarjit-singh/leetCode/tree/master/0347-top-k-frequent-elements) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/samarjit-singh/leetCode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0463-island-perimeter](https://github.com/samarjit-singh/leetCode/tree/master/0463-island-perimeter) |
+| [0473-matchsticks-to-square](https://github.com/samarjit-singh/leetCode/tree/master/0473-matchsticks-to-square) |
 | [0621-task-scheduler](https://github.com/samarjit-singh/leetCode/tree/master/0621-task-scheduler) |
 | [0695-max-area-of-island](https://github.com/samarjit-singh/leetCode/tree/master/0695-max-area-of-island) |
 | [0753-open-the-lock](https://github.com/samarjit-singh/leetCode/tree/master/0753-open-the-lock) |
@@ -91,6 +92,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0136-single-number](https://github.com/samarjit-singh/leetCode/tree/master/0136-single-number) |
 | [0268-missing-number](https://github.com/samarjit-singh/leetCode/tree/master/0268-missing-number) |
 | [0338-counting-bits](https://github.com/samarjit-singh/leetCode/tree/master/0338-counting-bits) |
+| [0473-matchsticks-to-square](https://github.com/samarjit-singh/leetCode/tree/master/0473-matchsticks-to-square) |
 | [0800-letter-case-permutation](https://github.com/samarjit-singh/leetCode/tree/master/0800-letter-case-permutation) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/samarjit-singh/leetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Sorting
@@ -206,6 +208,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0279-perfect-squares](https://github.com/samarjit-singh/leetCode/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/samarjit-singh/leetCode/tree/master/0322-coin-change) |
 | [0338-counting-bits](https://github.com/samarjit-singh/leetCode/tree/master/0338-counting-bits) |
+| [0473-matchsticks-to-square](https://github.com/samarjit-singh/leetCode/tree/master/0473-matchsticks-to-square) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/samarjit-singh/leetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0875-longest-mountain-in-array](https://github.com/samarjit-singh/leetCode/tree/master/0875-longest-mountain-in-array) |
 ## Two Pointers
@@ -277,6 +280,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0079-word-search](https://github.com/samarjit-singh/leetCode/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/samarjit-singh/leetCode/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/samarjit-singh/leetCode/tree/master/0131-palindrome-partitioning) |
+| [0473-matchsticks-to-square](https://github.com/samarjit-singh/leetCode/tree/master/0473-matchsticks-to-square) |
 | [0800-letter-case-permutation](https://github.com/samarjit-singh/leetCode/tree/master/0800-letter-case-permutation) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/samarjit-singh/leetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
 ## Linked List
@@ -415,4 +419,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/samarjit-singh/leetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
+## Bitmask
+|  |
+| ------- |
+| [0473-matchsticks-to-square](https://github.com/samarjit-singh/leetCode/tree/master/0473-matchsticks-to-square) |
 <!---LeetCode Topics End-->
