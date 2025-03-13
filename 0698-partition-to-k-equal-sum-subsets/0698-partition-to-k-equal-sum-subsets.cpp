@@ -1,41 +1,32 @@
 class Solution {
 public:
-    
-    bool result;
-    
-    void solve(int i,int currentSum,int target,int k,vector<int>& num,vector<bool>&mask){
-        if(k==1) {
-            result = true;
-            return;
+    bool dfs(vector<int>& nums, vector<int>& subset, int index, int targetSum, int k) {
+        if (index == nums.size()) {
+            return true;
         }
-        
-        if(i==num.size() || currentSum>target) return;
-        
-        if(currentSum == target) return solve(0,0,target,k-1,num,mask);
-        
-        if(!mask[i]){
-            mask[i] = 1;
-            solve(i+1,currentSum+num[i],target,k,num,mask);
-            mask[i] = 0;
+
+        for (int i = 0; i < k; i++) {
+            if (subset[i] + nums[index] > targetSum) continue; 
+
+            subset[i] += nums[index];
+            if (dfs(nums, subset, index + 1, targetSum, k)) return true;
+            subset[i] -= nums[index]; 
+
+            if (subset[i] == 0) break; 
         }
-        
-        solve(i+1,currentSum,target,k,num,mask);
-        
+
+        return false;
     }
-    
+
     bool canPartitionKSubsets(vector<int>& nums, int k) {
-        int allSum = 0;
+        int sumOfNums = accumulate(nums.begin(), nums.end(), 0);
+        if (sumOfNums % k != 0) return false; 
         
-        for(int i:nums){
-            allSum += i;
-        }
-        
-        if(allSum%k!=0) return 0;
-        
-        vector<bool> mask(nums.size(),0);
-        
-        solve(0,0,allSum/k,k,nums,mask);
-        
-        return result;
+        int targetSum = sumOfNums / k;
+        vector<int> subset(k, 0);
+
+        sort(nums.rbegin(), nums.rend()); 
+
+        return dfs(nums, subset, 0, targetSum, k);
     }
 };
