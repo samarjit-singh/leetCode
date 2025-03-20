@@ -38,6 +38,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0621-task-scheduler](https://github.com/samarjit-singh/leetCode/tree/master/0621-task-scheduler) |
 | [0695-max-area-of-island](https://github.com/samarjit-singh/leetCode/tree/master/0695-max-area-of-island) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/samarjit-singh/leetCode/tree/master/0698-partition-to-k-equal-sum-subsets) |
+| [0747-min-cost-climbing-stairs](https://github.com/samarjit-singh/leetCode/tree/master/0747-min-cost-climbing-stairs) |
 | [0753-open-the-lock](https://github.com/samarjit-singh/leetCode/tree/master/0753-open-the-lock) |
 | [0875-longest-mountain-in-array](https://github.com/samarjit-singh/leetCode/tree/master/0875-longest-mountain-in-array) |
 | [0990-verifying-an-alien-dictionary](https://github.com/samarjit-singh/leetCode/tree/master/0990-verifying-an-alien-dictionary) |
@@ -212,6 +213,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0338-counting-bits](https://github.com/samarjit-singh/leetCode/tree/master/0338-counting-bits) |
 | [0473-matchsticks-to-square](https://github.com/samarjit-singh/leetCode/tree/master/0473-matchsticks-to-square) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/samarjit-singh/leetCode/tree/master/0698-partition-to-k-equal-sum-subsets) |
+| [0747-min-cost-climbing-stairs](https://github.com/samarjit-singh/leetCode/tree/master/0747-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/samarjit-singh/leetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0875-longest-mountain-in-array](https://github.com/samarjit-singh/leetCode/tree/master/0875-longest-mountain-in-array) |
 ## Two Pointers
