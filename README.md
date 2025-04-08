@@ -209,6 +209,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/samarjit-singh/leetCode/tree/master/0005-longest-palindromic-substring) |
 | [0053-maximum-subarray](https://github.com/samarjit-singh/leetCode/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/samarjit-singh/leetCode/tree/master/0070-climbing-stairs) |
+| [0091-decode-ways](https://github.com/samarjit-singh/leetCode/tree/master/0091-decode-ways) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/samarjit-singh/leetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0131-palindrome-partitioning](https://github.com/samarjit-singh/leetCode/tree/master/0131-palindrome-partitioning) |
 | [0198-house-robber](https://github.com/samarjit-singh/leetCode/tree/master/0198-house-robber) |
@@ -277,6 +278,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0020-valid-parentheses](https://github.com/samarjit-singh/leetCode/tree/master/0020-valid-parentheses) |
 | [0068-text-justification](https://github.com/samarjit-singh/leetCode/tree/master/0068-text-justification) |
 | [0079-word-search](https://github.com/samarjit-singh/leetCode/tree/master/0079-word-search) |
+| [0091-decode-ways](https://github.com/samarjit-singh/leetCode/tree/master/0091-decode-ways) |
 | [0131-palindrome-partitioning](https://github.com/samarjit-singh/leetCode/tree/master/0131-palindrome-partitioning) |
 | [0647-palindromic-substrings](https://github.com/samarjit-singh/leetCode/tree/master/0647-palindromic-substrings) |
 | [0753-open-the-lock](https://github.com/samarjit-singh/leetCode/tree/master/0753-open-the-lock) |
