@@ -53,6 +53,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/samarjit-singh/leetCode/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/samarjit-singh/leetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2195-time-needed-to-buy-tickets](https://github.com/samarjit-singh/leetCode/tree/master/2195-time-needed-to-buy-tickets) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/samarjit-singh/leetCode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/samarjit-singh/leetCode/tree/master/2292-counting-words-with-a-given-prefix) |
 ## Hash Table
 |  |
@@ -141,6 +142,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0054-spiral-matrix](https://github.com/samarjit-singh/leetCode/tree/master/0054-spiral-matrix) |
 | [0068-text-justification](https://github.com/samarjit-singh/leetCode/tree/master/0068-text-justification) |
 | [2195-time-needed-to-buy-tickets](https://github.com/samarjit-singh/leetCode/tree/master/2195-time-needed-to-buy-tickets) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/samarjit-singh/leetCode/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -235,6 +237,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0875-longest-mountain-in-array](https://github.com/samarjit-singh/leetCode/tree/master/0875-longest-mountain-in-array) |
 | [0908-middle-of-the-linked-list](https://github.com/samarjit-singh/leetCode/tree/master/0908-middle-of-the-linked-list) |
 | [1019-squares-of-a-sorted-array](https://github.com/samarjit-singh/leetCode/tree/master/1019-squares-of-a-sorted-array) |
+| [2271-rearrange-array-elements-by-sign](https://github.com/samarjit-singh/leetCode/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Enumeration
 |  |
 | ------- |
