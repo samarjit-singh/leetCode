@@ -1,22 +1,17 @@
 class Solution {
 public:
     int coinChange(vector<int>& coins, int amount) {
-        queue<pair<int,int>> q;
-        q.push({amount, 0});
+        vector<int> dp(amount + 1, amount + 1); 
+        dp[0] = 0;
 
-        while(!q.empty()){
-            auto [currAmount, count] = q.front();
-            q.pop();
-
-            if(currAmount == 0) return count;
-
-            for(auto coin:coins){
-                if(currAmount-coin >= 0){
-                    q.push({currAmount-coin, count+1});
+        for (int i = 1; i <= amount; ++i) {
+            for (int coin : coins) {
+                if (coin <= i) {
+                    dp[i] = min(dp[i], dp[i - coin] + 1);
                 }
             }
         }
 
-        return -1;
+        return dp[amount] > amount ? -1 : dp[amount];
     }
 };
