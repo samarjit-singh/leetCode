@@ -23,6 +23,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/samarjit-singh/leetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0130-surrounded-regions](https://github.com/samarjit-singh/leetCode/tree/master/0130-surrounded-regions) |
 | [0136-single-number](https://github.com/samarjit-singh/leetCode/tree/master/0136-single-number) |
+| [0139-word-break](https://github.com/samarjit-singh/leetCode/tree/master/0139-word-break) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/samarjit-singh/leetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0152-maximum-product-subarray](https://github.com/samarjit-singh/leetCode/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/samarjit-singh/leetCode/tree/master/0198-house-robber) |
@@ -63,6 +64,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0017-letter-combinations-of-a-phone-number](https://github.com/samarjit-singh/leetCode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0036-valid-sudoku](https://github.com/samarjit-singh/leetCode/tree/master/0036-valid-sudoku) |
 | [0133-clone-graph](https://github.com/samarjit-singh/leetCode/tree/master/0133-clone-graph) |
+| [0139-word-break](https://github.com/samarjit-singh/leetCode/tree/master/0139-word-break) |
 | [0141-linked-list-cycle](https://github.com/samarjit-singh/leetCode/tree/master/0141-linked-list-cycle) |
 | [0219-contains-duplicate-ii](https://github.com/samarjit-singh/leetCode/tree/master/0219-contains-duplicate-ii) |
 | [0268-missing-number](https://github.com/samarjit-singh/leetCode/tree/master/0268-missing-number) |
@@ -215,6 +217,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0091-decode-ways](https://github.com/samarjit-singh/leetCode/tree/master/0091-decode-ways) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/samarjit-singh/leetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0131-palindrome-partitioning](https://github.com/samarjit-singh/leetCode/tree/master/0131-palindrome-partitioning) |
+| [0139-word-break](https://github.com/samarjit-singh/leetCode/tree/master/0139-word-break) |
 | [0152-maximum-product-subarray](https://github.com/samarjit-singh/leetCode/tree/master/0152-maximum-product-subarray) |
 | [0198-house-robber](https://github.com/samarjit-singh/leetCode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/samarjit-singh/leetCode/tree/master/0213-house-robber-ii) |
@@ -259,6 +262,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0070-climbing-stairs](https://github.com/samarjit-singh/leetCode/tree/master/0070-climbing-stairs) |
+| [0139-word-break](https://github.com/samarjit-singh/leetCode/tree/master/0139-word-break) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/samarjit-singh/leetCode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 ## Divide and Conquer
 |  |
@@ -285,6 +289,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0079-word-search](https://github.com/samarjit-singh/leetCode/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/samarjit-singh/leetCode/tree/master/0091-decode-ways) |
 | [0131-palindrome-partitioning](https://github.com/samarjit-singh/leetCode/tree/master/0131-palindrome-partitioning) |
+| [0139-word-break](https://github.com/samarjit-singh/leetCode/tree/master/0139-word-break) |
 | [0647-palindromic-substrings](https://github.com/samarjit-singh/leetCode/tree/master/0647-palindromic-substrings) |
 | [0753-open-the-lock](https://github.com/samarjit-singh/leetCode/tree/master/0753-open-the-lock) |
 | [0800-letter-case-permutation](https://github.com/samarjit-singh/leetCode/tree/master/0800-letter-case-permutation) |
@@ -448,4 +453,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0473-matchsticks-to-square](https://github.com/samarjit-singh/leetCode/tree/master/0473-matchsticks-to-square) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/samarjit-singh/leetCode/tree/master/0698-partition-to-k-equal-sum-subsets) |
+## Trie
+|  |
+| ------- |
+| [0139-word-break](https://github.com/samarjit-singh/leetCode/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
