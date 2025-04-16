@@ -89,6 +89,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0150-evaluate-reverse-polish-notation](https://github.com/samarjit-singh/leetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0268-missing-number](https://github.com/samarjit-singh/leetCode/tree/master/0268-missing-number) |
 | [0279-perfect-squares](https://github.com/samarjit-singh/leetCode/tree/master/0279-perfect-squares) |
+| [0343-integer-break](https://github.com/samarjit-singh/leetCode/tree/master/0343-integer-break) |
 | [1014-k-closest-points-to-origin](https://github.com/samarjit-singh/leetCode/tree/master/1014-k-closest-points-to-origin) |
 | [1395-minimum-time-visiting-all-points](https://github.com/samarjit-singh/leetCode/tree/master/1395-minimum-time-visiting-all-points) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/samarjit-singh/leetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
@@ -233,6 +234,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0300-longest-increasing-subsequence](https://github.com/samarjit-singh/leetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/samarjit-singh/leetCode/tree/master/0322-coin-change) |
 | [0338-counting-bits](https://github.com/samarjit-singh/leetCode/tree/master/0338-counting-bits) |
+| [0343-integer-break](https://github.com/samarjit-singh/leetCode/tree/master/0343-integer-break) |
 | [0377-combination-sum-iv](https://github.com/samarjit-singh/leetCode/tree/master/0377-combination-sum-iv) |
 | [0416-partition-equal-subset-sum](https://github.com/samarjit-singh/leetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0473-matchsticks-to-square](https://github.com/samarjit-singh/leetCode/tree/master/0473-matchsticks-to-square) |
