@@ -1,31 +1,30 @@
 class Solution {
 public:
+
+    int backtrack(vector<vector<int>>& obstacleGrid, int m, int n, int row, int col, vector<vector<int>>& dp) {
+        if(row >= m || col >= n || obstacleGrid[row][col] == 1) {
+            return 0;
+        }
+
+        if(row == m-1 && col == n-1) {
+            return 1;
+        }
+
+        if(dp[row][col] != -1) {
+            return dp[row][col];
+        }
+
+        int right = backtrack(obstacleGrid, m, n, row, col+1, dp);
+        int down = backtrack(obstacleGrid, m, n, row+1, col, dp);
+
+        return dp[row][col] = right+down;
+    }
+
     int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) {
-        int n = obstacleGrid.size();
-        int m = obstacleGrid[0].size();
-        
-        vector<vector<int>> dp(n,vector<int>(m,0));
-        
-        for(int i=0;i<n;i++){
-            if(obstacleGrid[i][0] == 1) break;
-            dp[i][0] = 1;
-        }
-        
-        for(int i=0;i<m;i++){
-            if(obstacleGrid[0][i] == 1) break;
-            dp[0][i] = 1;
-        }
-        
-        for(int i=1;i<n;i++){
-            for(int j=1;j<m;j++){
-                if(obstacleGrid[i][j] == 1){
-                    dp[i][j] = 0;
-                } else {
-                    dp[i][j] = dp[i-1][j] + dp[i][j-1];
-                }
-            }
-        }
-        
-        return dp[n-1][m-1];
+        int m = obstacleGrid.size();
+        int n = obstacleGrid[0].size();
+        vector<vector<int>> dp(m, vector<int>(n, -1));
+
+        return backtrack(obstacleGrid, m, n, 0, 0, dp);
     }
 };
