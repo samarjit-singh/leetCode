@@ -60,6 +60,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2195-time-needed-to-buy-tickets](https://github.com/samarjit-singh/leetCode/tree/master/2195-time-needed-to-buy-tickets) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/samarjit-singh/leetCode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/samarjit-singh/leetCode/tree/master/2292-counting-words-with-a-given-prefix) |
+| [2448-count-number-of-bad-pairs](https://github.com/samarjit-singh/leetCode/tree/master/2448-count-number-of-bad-pairs) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/samarjit-singh/leetCode/tree/master/2626-count-the-number-of-good-subarrays) |
 ## Hash Table
 |  |
@@ -81,6 +82,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1039-find-the-town-judge](https://github.com/samarjit-singh/leetCode/tree/master/1039-find-the-town-judge) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/samarjit-singh/leetCode/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/samarjit-singh/leetCode/tree/master/1890-sum-of-beauty-of-all-substrings) |
+| [2448-count-number-of-bad-pairs](https://github.com/samarjit-singh/leetCode/tree/master/2448-count-number-of-bad-pairs) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/samarjit-singh/leetCode/tree/master/2626-count-the-number-of-good-subarrays) |
 ## Math
 |  |
@@ -93,6 +95,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1014-k-closest-points-to-origin](https://github.com/samarjit-singh/leetCode/tree/master/1014-k-closest-points-to-origin) |
 | [1395-minimum-time-visiting-all-points](https://github.com/samarjit-singh/leetCode/tree/master/1395-minimum-time-visiting-all-points) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/samarjit-singh/leetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
+| [2448-count-number-of-bad-pairs](https://github.com/samarjit-singh/leetCode/tree/master/2448-count-number-of-bad-pairs) |
 | [2649-count-total-number-of-colored-cells](https://github.com/samarjit-singh/leetCode/tree/master/2649-count-total-number-of-colored-cells) |
 ## Binary Search
 |  |
@@ -132,6 +135,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0621-task-scheduler](https://github.com/samarjit-singh/leetCode/tree/master/0621-task-scheduler) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/samarjit-singh/leetCode/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/samarjit-singh/leetCode/tree/master/1890-sum-of-beauty-of-all-substrings) |
+| [2448-count-number-of-bad-pairs](https://github.com/samarjit-singh/leetCode/tree/master/2448-count-number-of-bad-pairs) |
 ## Geometry
 |  |
 | ------- |
