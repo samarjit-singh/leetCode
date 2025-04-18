@@ -55,6 +55,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1019-squares-of-a-sorted-array](https://github.com/samarjit-singh/leetCode/tree/master/1019-squares-of-a-sorted-array) |
 | [1036-rotting-oranges](https://github.com/samarjit-singh/leetCode/tree/master/1036-rotting-oranges) |
 | [1039-find-the-town-judge](https://github.com/samarjit-singh/leetCode/tree/master/1039-find-the-town-judge) |
+| [1130-last-stone-weight-ii](https://github.com/samarjit-singh/leetCode/tree/master/1130-last-stone-weight-ii) |
 | [1306-minimum-absolute-difference](https://github.com/samarjit-singh/leetCode/tree/master/1306-minimum-absolute-difference) |
 | [1395-minimum-time-visiting-all-points](https://github.com/samarjit-singh/leetCode/tree/master/1395-minimum-time-visiting-all-points) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/samarjit-singh/leetCode/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
@@ -256,6 +257,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0747-min-cost-climbing-stairs](https://github.com/samarjit-singh/leetCode/tree/master/0747-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/samarjit-singh/leetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0875-longest-mountain-in-array](https://github.com/samarjit-singh/leetCode/tree/master/0875-longest-mountain-in-array) |
+| [1130-last-stone-weight-ii](https://github.com/samarjit-singh/leetCode/tree/master/1130-last-stone-weight-ii) |
 | [1250-longest-common-subsequence](https://github.com/samarjit-singh/leetCode/tree/master/1250-longest-common-subsequence) |
 ## Two Pointers
 |  |
