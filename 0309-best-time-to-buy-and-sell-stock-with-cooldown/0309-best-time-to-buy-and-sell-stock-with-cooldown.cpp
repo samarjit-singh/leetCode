@@ -1,14 +1,31 @@
 class Solution {
 public:
-    int maxProfit(vector<int>& prices) {
-        if(prices.size()<1) return 0;
-        int A = 0, C = 0, B = -prices[0]; // a is for BUY c is for sold and b id for hold
-        for(int i = 1;i<prices.size();i++){
-            int temp = A;
-            A = max(A,C);
-            C = B+prices[i];
-            B = max(B,temp-prices[i]);
+
+    int dfs(int index, bool buying, vector<int>& prices, vector<vector<int>>& dp) {
+        if(index >= prices.size()) {
+            return 0;
         }
-        return max(A,C);
+
+        if(dp[index][buying] != -1) {
+            return dp[index][buying];
+        }
+
+        int cooldown = dfs(index+1, buying, prices, dp);
+
+        if(buying) {
+            int buy = dfs(index + 1, false, prices, dp) - prices[index];
+            dp[index][buying] = max(buy, cooldown);
+        } else {
+            int sell = dfs(index + 2, true, prices, dp) + prices[index];
+            dp[index][buying] = max(sell, cooldown);
+        }
+
+        return dp[index][buying];
+    }
+
+    int maxProfit(vector<int>& prices) {
+        int n = prices.size();
+        vector<vector<int>> dp(n, vector<int> (2, -1));
+        return dfs(0, true, prices, dp);
     }
 };
