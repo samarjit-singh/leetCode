@@ -4,7 +4,7 @@ public:
 
     int backtrack(vector<int>& temp, vector<int>& nums, int target, int index,vector<vector<int>>& dp) {
         if(index >= nums.size()) {
-            long long sumOfTemp = accumulate(temp.begin(), temp.end(), 0LL);
+            int sumOfTemp = accumulate(temp.begin(), temp.end(), 0);
             if(sumOfTemp == target) {
                 return 1;
             } else {
