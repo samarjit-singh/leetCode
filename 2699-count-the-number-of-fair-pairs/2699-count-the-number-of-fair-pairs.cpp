@@ -5,35 +5,39 @@ public:
         long long count = 0;
         int n = nums.size();
 
-        for (int i = 0; i < n; i++) {
-            int l = i + 1;
-            int r = n - 1;
+        for(int i=0;i<n;i++) {
 
-            // Find the first index j such that nums[i] + nums[j] >= lower
-            while (l <= r) {
-                int mid = l + (r - l) / 2;
-                if (nums[i] + nums[mid] >= lower)
-                    r = mid - 1;
-                else
-                    l = mid + 1;
+            int left = i+1;
+            int right = n-1;
+
+            while(left <= right) {
+                int mid = left + (right - left) / 2;
+                if(nums[i]+nums[mid] >= lower) {
+                    right = mid - 1;
+                } else {
+                    left = mid + 1;
+                }
             }
-            int start = l;
 
-            l = i + 1;
-            r = n - 1;
+            int start = left;
 
-            // Find the last index j such that nums[i] + nums[j] <= upper
-            while (l <= r) {
-                int mid = l + (r - l) / 2;
-                if (nums[i] + nums[mid] <= upper)
-                    l = mid + 1;
-                else
-                    r = mid - 1;
+            left = i + 1;
+            right = n - 1;
+
+            while(left <= right) {
+                int mid = left + (right - left) / 2;
+                if(nums[i]+nums[mid] <= upper) {
+                    left = mid + 1;
+                } else {
+                    right = mid - 1;
+                }
             }
-            int end = r;
 
-            if (start <= end)
+            int end = right;
+
+            if (start <= end) {
                 count += (end - start + 1);
+            }
         }
 
         return count;
