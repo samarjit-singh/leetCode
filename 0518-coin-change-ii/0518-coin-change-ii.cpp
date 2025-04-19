@@ -1,19 +1,32 @@
 class Solution {
 public:
-    int change(int amount, vector<int>& coins) {
-        vector<vector<int>> dp(coins.size()+1,vector<int>(amount+1,0));
-        
-        for(int i=0;i<=coins.size();i++){
-            for(int j=0;j<=amount;j++){
-                if(j==0){ // if amount is zero only one combination can be made
-                    dp[i][j] = 1;
-                } else if(i==0){ // if zero coins are there no combination can be made
-                    dp[i][j] = 0;
-                } else {
-                    dp[i][j] = dp[i-1][j] + (j-coins[i-1]<0 ? 0 : dp[i][j-coins[i-1]] );
-                }
-            }
+    int backtrack(int index, int amount, vector<int>& coins, vector<vector<int>>& dp) {
+        if(index >= coins.size()) {
+            return 0;
         }
-        return dp[coins.size()][amount];
+
+        if(amount < 0) {
+            return 0;
+        }
+
+        if(amount == 0) {
+            return 1;
+        }
+
+        if(dp[index][amount] != -1) {
+            return dp[index][amount];
+        }
+
+        int pick = backtrack(index, amount-coins[index], coins, dp);
+        int notPick = backtrack(index+1, amount, coins, dp);
+
+        return dp[index][amount] = pick + notPick;
+
+    }
+
+    int change(int amount, vector<int>& coins) {
+        int n = coins.size();
+        vector<vector<int>> dp(n, vector<int> (amount+1, -1));
+        return backtrack(0, amount, coins, dp);
     }
 };
