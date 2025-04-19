@@ -45,6 +45,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/samarjit-singh/leetCode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0463-island-perimeter](https://github.com/samarjit-singh/leetCode/tree/master/0463-island-perimeter) |
 | [0473-matchsticks-to-square](https://github.com/samarjit-singh/leetCode/tree/master/0473-matchsticks-to-square) |
+| [0494-target-sum](https://github.com/samarjit-singh/leetCode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/samarjit-singh/leetCode/tree/master/0518-coin-change-ii) |
 | [0621-task-scheduler](https://github.com/samarjit-singh/leetCode/tree/master/0621-task-scheduler) |
 | [0695-max-area-of-island](https://github.com/samarjit-singh/leetCode/tree/master/0695-max-area-of-island) |
@@ -255,6 +256,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0377-combination-sum-iv](https://github.com/samarjit-singh/leetCode/tree/master/0377-combination-sum-iv) |
 | [0416-partition-equal-subset-sum](https://github.com/samarjit-singh/leetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0473-matchsticks-to-square](https://github.com/samarjit-singh/leetCode/tree/master/0473-matchsticks-to-square) |
+| [0494-target-sum](https://github.com/samarjit-singh/leetCode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/samarjit-singh/leetCode/tree/master/0518-coin-change-ii) |
 | [0647-palindromic-substrings](https://github.com/samarjit-singh/leetCode/tree/master/0647-palindromic-substrings) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/samarjit-singh/leetCode/tree/master/0698-partition-to-k-equal-sum-subsets) |
@@ -346,6 +348,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0090-subsets-ii](https://github.com/samarjit-singh/leetCode/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/samarjit-singh/leetCode/tree/master/0131-palindrome-partitioning) |
 | [0473-matchsticks-to-square](https://github.com/samarjit-singh/leetCode/tree/master/0473-matchsticks-to-square) |
+| [0494-target-sum](https://github.com/samarjit-singh/leetCode/tree/master/0494-target-sum) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/samarjit-singh/leetCode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0800-letter-case-permutation](https://github.com/samarjit-singh/leetCode/tree/master/0800-letter-case-permutation) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/samarjit-singh/leetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
