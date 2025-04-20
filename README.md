@@ -329,6 +329,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/samarjit-singh/leetCode/tree/master/0005-longest-palindromic-substring) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/samarjit-singh/leetCode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/samarjit-singh/leetCode/tree/master/0020-valid-parentheses) |
+| [0038-count-and-say](https://github.com/samarjit-singh/leetCode/tree/master/0038-count-and-say) |
 | [0068-text-justification](https://github.com/samarjit-singh/leetCode/tree/master/0068-text-justification) |
 | [0079-word-search](https://github.com/samarjit-singh/leetCode/tree/master/0079-word-search) |
 | [0091-decode-ways](https://github.com/samarjit-singh/leetCode/tree/master/0091-decode-ways) |
