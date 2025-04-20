@@ -52,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/samarjit-singh/leetCode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0747-min-cost-climbing-stairs](https://github.com/samarjit-singh/leetCode/tree/master/0747-min-cost-climbing-stairs) |
 | [0753-open-the-lock](https://github.com/samarjit-singh/leetCode/tree/master/0753-open-the-lock) |
+| [0797-rabbits-in-forest](https://github.com/samarjit-singh/leetCode/tree/master/0797-rabbits-in-forest) |
 | [0875-longest-mountain-in-array](https://github.com/samarjit-singh/leetCode/tree/master/0875-longest-mountain-in-array) |
 | [0990-verifying-an-alien-dictionary](https://github.com/samarjit-singh/leetCode/tree/master/0990-verifying-an-alien-dictionary) |
 | [1014-k-closest-points-to-origin](https://github.com/samarjit-singh/leetCode/tree/master/1014-k-closest-points-to-origin) |
@@ -86,6 +87,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0621-task-scheduler](https://github.com/samarjit-singh/leetCode/tree/master/0621-task-scheduler) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/samarjit-singh/leetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0753-open-the-lock](https://github.com/samarjit-singh/leetCode/tree/master/0753-open-the-lock) |
+| [0797-rabbits-in-forest](https://github.com/samarjit-singh/leetCode/tree/master/0797-rabbits-in-forest) |
 | [0990-verifying-an-alien-dictionary](https://github.com/samarjit-singh/leetCode/tree/master/0990-verifying-an-alien-dictionary) |
 | [1039-find-the-town-judge](https://github.com/samarjit-singh/leetCode/tree/master/1039-find-the-town-judge) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/samarjit-singh/leetCode/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
@@ -101,6 +103,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0268-missing-number](https://github.com/samarjit-singh/leetCode/tree/master/0268-missing-number) |
 | [0279-perfect-squares](https://github.com/samarjit-singh/leetCode/tree/master/0279-perfect-squares) |
 | [0343-integer-break](https://github.com/samarjit-singh/leetCode/tree/master/0343-integer-break) |
+| [0797-rabbits-in-forest](https://github.com/samarjit-singh/leetCode/tree/master/0797-rabbits-in-forest) |
 | [1014-k-closest-points-to-origin](https://github.com/samarjit-singh/leetCode/tree/master/1014-k-closest-points-to-origin) |
 | [1395-minimum-time-visiting-all-points](https://github.com/samarjit-singh/leetCode/tree/master/1395-minimum-time-visiting-all-points) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/samarjit-singh/leetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
@@ -452,6 +455,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0621-task-scheduler](https://github.com/samarjit-singh/leetCode/tree/master/0621-task-scheduler) |
+| [0797-rabbits-in-forest](https://github.com/samarjit-singh/leetCode/tree/master/0797-rabbits-in-forest) |
 | [1285-balance-a-binary-search-tree](https://github.com/samarjit-singh/leetCode/tree/master/1285-balance-a-binary-search-tree) |
 ## Heap (Priority Queue)
 |  |
