@@ -55,6 +55,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0753-open-the-lock](https://github.com/samarjit-singh/leetCode/tree/master/0753-open-the-lock) |
 | [0797-rabbits-in-forest](https://github.com/samarjit-singh/leetCode/tree/master/0797-rabbits-in-forest) |
 | [0875-longest-mountain-in-array](https://github.com/samarjit-singh/leetCode/tree/master/0875-longest-mountain-in-array) |
+| [0909-stone-game](https://github.com/samarjit-singh/leetCode/tree/master/0909-stone-game) |
 | [0990-verifying-an-alien-dictionary](https://github.com/samarjit-singh/leetCode/tree/master/0990-verifying-an-alien-dictionary) |
 | [1014-k-closest-points-to-origin](https://github.com/samarjit-singh/leetCode/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/samarjit-singh/leetCode/tree/master/1019-squares-of-a-sorted-array) |
@@ -106,6 +107,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0279-perfect-squares](https://github.com/samarjit-singh/leetCode/tree/master/0279-perfect-squares) |
 | [0343-integer-break](https://github.com/samarjit-singh/leetCode/tree/master/0343-integer-break) |
 | [0797-rabbits-in-forest](https://github.com/samarjit-singh/leetCode/tree/master/0797-rabbits-in-forest) |
+| [0909-stone-game](https://github.com/samarjit-singh/leetCode/tree/master/0909-stone-game) |
 | [1014-k-closest-points-to-origin](https://github.com/samarjit-singh/leetCode/tree/master/1014-k-closest-points-to-origin) |
 | [1395-minimum-time-visiting-all-points](https://github.com/samarjit-singh/leetCode/tree/master/1395-minimum-time-visiting-all-points) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/samarjit-singh/leetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
@@ -276,6 +278,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0747-min-cost-climbing-stairs](https://github.com/samarjit-singh/leetCode/tree/master/0747-min-cost-climbing-stairs) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/samarjit-singh/leetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0875-longest-mountain-in-array](https://github.com/samarjit-singh/leetCode/tree/master/0875-longest-mountain-in-array) |
+| [0909-stone-game](https://github.com/samarjit-singh/leetCode/tree/master/0909-stone-game) |
 | [1130-last-stone-weight-ii](https://github.com/samarjit-singh/leetCode/tree/master/1130-last-stone-weight-ii) |
 | [1250-longest-common-subsequence](https://github.com/samarjit-singh/leetCode/tree/master/1250-longest-common-subsequence) |
 ## Two Pointers
@@ -520,4 +523,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0139-word-break](https://github.com/samarjit-singh/leetCode/tree/master/0139-word-break) |
+## Game Theory
+|  |
+| ------- |
+| [0909-stone-game](https://github.com/samarjit-singh/leetCode/tree/master/0909-stone-game) |
 <!---LeetCode Topics End-->
