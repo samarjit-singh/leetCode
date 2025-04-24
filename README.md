@@ -75,6 +75,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2448-count-number-of-bad-pairs](https://github.com/samarjit-singh/leetCode/tree/master/2448-count-number-of-bad-pairs) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/samarjit-singh/leetCode/tree/master/2626-count-the-number-of-good-subarrays) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/samarjit-singh/leetCode/tree/master/2699-count-the-number-of-fair-pairs) |
+| [2856-count-complete-subarrays-in-an-array](https://github.com/samarjit-singh/leetCode/tree/master/2856-count-complete-subarrays-in-an-array) |
 ## Hash Table
 |  |
 | ------- |
@@ -98,6 +99,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/samarjit-singh/leetCode/tree/master/1890-sum-of-beauty-of-all-substrings) |
 | [2448-count-number-of-bad-pairs](https://github.com/samarjit-singh/leetCode/tree/master/2448-count-number-of-bad-pairs) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/samarjit-singh/leetCode/tree/master/2626-count-the-number-of-good-subarrays) |
+| [2856-count-complete-subarrays-in-an-array](https://github.com/samarjit-singh/leetCode/tree/master/2856-count-complete-subarrays-in-an-array) |
 ## Math
 |  |
 | ------- |
@@ -310,6 +312,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0209-minimum-size-subarray-sum](https://github.com/samarjit-singh/leetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0219-contains-duplicate-ii](https://github.com/samarjit-singh/leetCode/tree/master/0219-contains-duplicate-ii) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/samarjit-singh/leetCode/tree/master/2626-count-the-number-of-good-subarrays) |
+| [2856-count-complete-subarrays-in-an-array](https://github.com/samarjit-singh/leetCode/tree/master/2856-count-complete-subarrays-in-an-array) |
 ## Prefix Sum
 |  |
 | ------- |
