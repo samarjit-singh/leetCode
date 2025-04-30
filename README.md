@@ -65,6 +65,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1240-stone-game-ii](https://github.com/samarjit-singh/leetCode/tree/master/1240-stone-game-ii) |
 | [1306-minimum-absolute-difference](https://github.com/samarjit-singh/leetCode/tree/master/1306-minimum-absolute-difference) |
 | [1395-minimum-time-visiting-all-points](https://github.com/samarjit-singh/leetCode/tree/master/1395-minimum-time-visiting-all-points) |
+| [1421-find-numbers-with-even-number-of-digits](https://github.com/samarjit-singh/leetCode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/samarjit-singh/leetCode/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/samarjit-singh/leetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2195-time-needed-to-buy-tickets](https://github.com/samarjit-singh/leetCode/tree/master/2195-time-needed-to-buy-tickets) |
@@ -114,6 +115,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1014-k-closest-points-to-origin](https://github.com/samarjit-singh/leetCode/tree/master/1014-k-closest-points-to-origin) |
 | [1240-stone-game-ii](https://github.com/samarjit-singh/leetCode/tree/master/1240-stone-game-ii) |
 | [1395-minimum-time-visiting-all-points](https://github.com/samarjit-singh/leetCode/tree/master/1395-minimum-time-visiting-all-points) |
+| [1421-find-numbers-with-even-number-of-digits](https://github.com/samarjit-singh/leetCode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/samarjit-singh/leetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2448-count-number-of-bad-pairs](https://github.com/samarjit-singh/leetCode/tree/master/2448-count-number-of-bad-pairs) |
 | [2649-count-total-number-of-colored-cells](https://github.com/samarjit-singh/leetCode/tree/master/2649-count-total-number-of-colored-cells) |
