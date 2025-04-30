@@ -18,24 +18,28 @@ public:
 
         queue<TreeNode*> q;
         q.push(root);
-        
-        TreeNode* res = root;
-    
-        while(!q.empty()){
+
+        TreeNode* node = root;
+
+        while(!q.empty()) {
             TreeNode* top = q.front();
             q.pop();
 
-            swap(top->right,top->left);
+            swap(top->right, top->left);
 
-            if(top->right){
+            if(top->right) {
                 q.push(top->right);
             }
 
-            if(top->left){
+            if(top->left) {
                 q.push(top->left);
             }
         }
 
-        return res;
+        return node;
     }
 };
+
+
+// simple queue could be used : first push root to stack 
+// then right and left and then move to right
