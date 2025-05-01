@@ -11,23 +11,28 @@
  */
 class Solution {
 public:
-    int diameter = 0;
-    int util (TreeNode* root){
-        if(root == nullptr){
+    int res = 0;
+    int dfs(TreeNode* root) {
+        if(root == NULL) {
             return 0;
         }
 
-        int left_depth = util(root->left);
-        int right_depth = util(root->right);
+        int left = dfs(root->left);
+        int right = dfs(root->right);
 
-        diameter = max(diameter, left_depth+right_depth);
+        res = max(res, left+right);
 
-        return 1 + max(left_depth,right_depth);
+        return 1 + max(left, right);
     }
 
     int diameterOfBinaryTree(TreeNode* root) {
-        util(root);
+        
+        dfs(root);
 
-        return diameter;
+        return res;
     }
 };
+
+// in this problem we are finding height of binary tree in dfs
+// at each node we are taking raight + left from both the sides
+// and then when moving up in the tree we take max from left or right
