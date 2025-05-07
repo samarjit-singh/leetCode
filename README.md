@@ -101,6 +101,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0753-open-the-lock](https://github.com/samarjit-singh/leetCode/tree/master/0753-open-the-lock) |
 | [0797-rabbits-in-forest](https://github.com/samarjit-singh/leetCode/tree/master/0797-rabbits-in-forest) |
 | [0990-verifying-an-alien-dictionary](https://github.com/samarjit-singh/leetCode/tree/master/0990-verifying-an-alien-dictionary) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1039-find-the-town-judge](https://github.com/samarjit-singh/leetCode/tree/master/1039-find-the-town-judge) |
 | [1044-find-common-characters](https://github.com/samarjit-singh/leetCode/tree/master/1044-find-common-characters) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/samarjit-singh/leetCode/tree/master/1227-number-of-equivalent-domino-pairs) |
@@ -158,6 +159,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0621-task-scheduler](https://github.com/samarjit-singh/leetCode/tree/master/0621-task-scheduler) |
 | [1014-k-closest-points-to-origin](https://github.com/samarjit-singh/leetCode/tree/master/1014-k-closest-points-to-origin) |
 | [1019-squares-of-a-sorted-array](https://github.com/samarjit-singh/leetCode/tree/master/1019-squares-of-a-sorted-array) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1306-minimum-absolute-difference](https://github.com/samarjit-singh/leetCode/tree/master/1306-minimum-absolute-difference) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/samarjit-singh/leetCode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/samarjit-singh/leetCode/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
@@ -230,6 +232,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0684-redundant-connection](https://github.com/samarjit-singh/leetCode/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/samarjit-singh/leetCode/tree/master/0695-max-area-of-island) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/samarjit-singh/leetCode/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1285-balance-a-binary-search-tree](https://github.com/samarjit-singh/leetCode/tree/master/1285-balance-a-binary-search-tree) |
 | [1492-time-needed-to-inform-all-employees](https://github.com/samarjit-singh/leetCode/tree/master/1492-time-needed-to-inform-all-employees) |
 | [1558-course-schedule-iv](https://github.com/samarjit-singh/leetCode/tree/master/1558-course-schedule-iv) |
@@ -258,6 +261,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0695-max-area-of-island](https://github.com/samarjit-singh/leetCode/tree/master/0695-max-area-of-island) |
 | [0753-open-the-lock](https://github.com/samarjit-singh/leetCode/tree/master/0753-open-the-lock) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/samarjit-singh/leetCode/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1036-rotting-oranges](https://github.com/samarjit-singh/leetCode/tree/master/1036-rotting-oranges) |
 | [1492-time-needed-to-inform-all-employees](https://github.com/samarjit-singh/leetCode/tree/master/1492-time-needed-to-inform-all-employees) |
 | [1558-course-schedule-iv](https://github.com/samarjit-singh/leetCode/tree/master/1558-course-schedule-iv) |
@@ -464,6 +468,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/samarjit-singh/leetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/samarjit-singh/leetCode/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/samarjit-singh/leetCode/tree/master/0784-insert-into-a-binary-search-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1285-balance-a-binary-search-tree](https://github.com/samarjit-singh/leetCode/tree/master/1285-balance-a-binary-search-tree) |
 | [1492-time-needed-to-inform-all-employees](https://github.com/samarjit-singh/leetCode/tree/master/1492-time-needed-to-inform-all-employees) |
 ## Queue
@@ -501,6 +506,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/samarjit-singh/leetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/samarjit-singh/leetCode/tree/master/0783-search-in-a-binary-search-tree) |
 | [0784-insert-into-a-binary-search-tree](https://github.com/samarjit-singh/leetCode/tree/master/0784-insert-into-a-binary-search-tree) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1285-balance-a-binary-search-tree](https://github.com/samarjit-singh/leetCode/tree/master/1285-balance-a-binary-search-tree) |
 ## Binary Search Tree
 |  |
