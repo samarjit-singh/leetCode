@@ -230,6 +230,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/samarjit-singh/leetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/samarjit-singh/leetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0449-serialize-and-deserialize-bst](https://github.com/samarjit-singh/leetCode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0463-island-perimeter](https://github.com/samarjit-singh/leetCode/tree/master/0463-island-perimeter) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/samarjit-singh/leetCode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/0543-diameter-of-binary-tree) |
@@ -262,6 +263,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0279-perfect-squares](https://github.com/samarjit-singh/leetCode/tree/master/0279-perfect-squares) |
 | [0322-coin-change](https://github.com/samarjit-singh/leetCode/tree/master/0322-coin-change) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/samarjit-singh/leetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0449-serialize-and-deserialize-bst](https://github.com/samarjit-singh/leetCode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0463-island-perimeter](https://github.com/samarjit-singh/leetCode/tree/master/0463-island-perimeter) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/samarjit-singh/leetCode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/0637-average-of-levels-in-binary-tree) |
@@ -384,6 +386,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0155-min-stack](https://github.com/samarjit-singh/leetCode/tree/master/0155-min-stack) |
 | [0225-implement-stack-using-queues](https://github.com/samarjit-singh/leetCode/tree/master/0225-implement-stack-using-queues) |
 | [0303-range-sum-query-immutable](https://github.com/samarjit-singh/leetCode/tree/master/0303-range-sum-query-immutable) |
+| [0449-serialize-and-deserialize-bst](https://github.com/samarjit-singh/leetCode/tree/master/0449-serialize-and-deserialize-bst) |
 ## String
 |  |
 | ------- |
@@ -398,6 +401,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0115-distinct-subsequences](https://github.com/samarjit-singh/leetCode/tree/master/0115-distinct-subsequences) |
 | [0131-palindrome-partitioning](https://github.com/samarjit-singh/leetCode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/samarjit-singh/leetCode/tree/master/0139-word-break) |
+| [0449-serialize-and-deserialize-bst](https://github.com/samarjit-singh/leetCode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0567-permutation-in-string](https://github.com/samarjit-singh/leetCode/tree/master/0567-permutation-in-string) |
 | [0647-palindromic-substrings](https://github.com/samarjit-singh/leetCode/tree/master/0647-palindromic-substrings) |
 | [0753-open-the-lock](https://github.com/samarjit-singh/leetCode/tree/master/0753-open-the-lock) |
@@ -479,6 +483,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0230-kth-smallest-element-in-a-bst](https://github.com/samarjit-singh/leetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/samarjit-singh/leetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0449-serialize-and-deserialize-bst](https://github.com/samarjit-singh/leetCode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0450-delete-node-in-a-bst](https://github.com/samarjit-singh/leetCode/tree/master/0450-delete-node-in-a-bst) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/samarjit-singh/leetCode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/0543-diameter-of-binary-tree) |
@@ -522,6 +527,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0230-kth-smallest-element-in-a-bst](https://github.com/samarjit-singh/leetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/samarjit-singh/leetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0449-serialize-and-deserialize-bst](https://github.com/samarjit-singh/leetCode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0450-delete-node-in-a-bst](https://github.com/samarjit-singh/leetCode/tree/master/0450-delete-node-in-a-bst) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/samarjit-singh/leetCode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0543-diameter-of-binary-tree](https://github.com/samarjit-singh/leetCode/tree/master/0543-diameter-of-binary-tree) |
@@ -538,6 +544,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/samarjit-singh/leetCode/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/samarjit-singh/leetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/samarjit-singh/leetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| [0449-serialize-and-deserialize-bst](https://github.com/samarjit-singh/leetCode/tree/master/0449-serialize-and-deserialize-bst) |
 | [0450-delete-node-in-a-bst](https://github.com/samarjit-singh/leetCode/tree/master/0450-delete-node-in-a-bst) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/samarjit-singh/leetCode/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/samarjit-singh/leetCode/tree/master/0653-two-sum-iv-input-is-a-bst) |
