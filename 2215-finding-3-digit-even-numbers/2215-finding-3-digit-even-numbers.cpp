@@ -1,5 +1,6 @@
 class Solution {
 public:
+
     void backtrack(vector<int>& digits, set<int>& res, int digitIndex, int digit, vector<bool>& used) {
         if(digitIndex == 3) {
             if(digit % 2 == 0) {
@@ -8,14 +9,13 @@ public:
             return;
         }
 
-
         for(int i=0;i<digits.size();i++) {
-            if(used[i]) continue; 
+            if(used[i]) continue;
 
             if(digitIndex == 0 && digits[i] == 0) continue;
 
             used[i] = true;
-            backtrack(digits, res, digitIndex+1, digit * 10 + digits[i], used);
+            backtrack(digits, res, digitIndex+1, digit*10+digits[i], used);
             used[i] = false;
         }
     }
