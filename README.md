@@ -86,6 +86,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2699-count-the-number-of-fair-pairs](https://github.com/samarjit-singh/leetCode/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/samarjit-singh/leetCode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/samarjit-singh/leetCode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
+| [3321-type-of-triangle](https://github.com/samarjit-singh/leetCode/tree/master/3321-type-of-triangle) |
 ## Hash Table
 |  |
 | ------- |
@@ -136,6 +137,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1993-sum-of-all-subset-xor-totals](https://github.com/samarjit-singh/leetCode/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2448-count-number-of-bad-pairs](https://github.com/samarjit-singh/leetCode/tree/master/2448-count-number-of-bad-pairs) |
 | [2649-count-total-number-of-colored-cells](https://github.com/samarjit-singh/leetCode/tree/master/2649-count-total-number-of-colored-cells) |
+| [3321-type-of-triangle](https://github.com/samarjit-singh/leetCode/tree/master/3321-type-of-triangle) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/samarjit-singh/leetCode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Binary Search
 |  |
@@ -174,6 +176,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/samarjit-singh/leetCode/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [2215-finding-3-digit-even-numbers](https://github.com/samarjit-singh/leetCode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/samarjit-singh/leetCode/tree/master/2699-count-the-number-of-fair-pairs) |
+| [3321-type-of-triangle](https://github.com/samarjit-singh/leetCode/tree/master/3321-type-of-triangle) |
 ## Counting
 |  |
 | ------- |
