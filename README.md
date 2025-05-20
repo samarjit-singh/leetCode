@@ -66,6 +66,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1044-find-common-characters](https://github.com/samarjit-singh/leetCode/tree/master/1044-find-common-characters) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/samarjit-singh/leetCode/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1130-last-stone-weight-ii](https://github.com/samarjit-singh/leetCode/tree/master/1130-last-stone-weight-ii) |
+| [1206-corporate-flight-bookings](https://github.com/samarjit-singh/leetCode/tree/master/1206-corporate-flight-bookings) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/samarjit-singh/leetCode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1240-stone-game-ii](https://github.com/samarjit-singh/leetCode/tree/master/1240-stone-game-ii) |
 | [1306-minimum-absolute-difference](https://github.com/samarjit-singh/leetCode/tree/master/1306-minimum-absolute-difference) |
@@ -375,6 +376,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/samarjit-singh/leetCode/tree/master/0209-minimum-size-subarray-sum) |
 | [0303-range-sum-query-immutable](https://github.com/samarjit-singh/leetCode/tree/master/0303-range-sum-query-immutable) |
+| [1206-corporate-flight-bookings](https://github.com/samarjit-singh/leetCode/tree/master/1206-corporate-flight-bookings) |
 | [1240-stone-game-ii](https://github.com/samarjit-singh/leetCode/tree/master/1240-stone-game-ii) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/samarjit-singh/leetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2249-count-the-hidden-sequences](https://github.com/samarjit-singh/leetCode/tree/master/2249-count-the-hidden-sequences) |
