@@ -1,29 +1,19 @@
 class Solution {
 public:
     vector<int> maxSlidingWindow(vector<int>& nums, int k) {
-        int n = nums.size();
-
+        multiset<int> window;
         vector<int> result;
-        int maxEle = INT_MIN;
 
-        for(int i=0;i<k;i++) {
-            if(nums[i] > maxEle) {
-                maxEle = nums[i];
-            }
-        }
+        for(int i=0;i<nums.size();i++) {
+            window.insert(nums[i]);
 
-        result.push_back(maxEle);
-
-        for(int right=k;right<n;right++) {
-            int left = right - k + 1;
-            
-            if(nums[left-1] == maxEle) {
-                maxEle = *max_element(nums.begin() + left, nums.begin() + right + 1);
-            } else {
-                maxEle = max(maxEle, nums[right]);
+            if(i >= k) {
+                window.erase(window.find(nums[i-k]));
             }
 
-            result.push_back(maxEle);
+            if(i >= k-1) {
+                result.push_back(*window.rbegin());
+            }
         }
 
         return result;
