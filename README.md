@@ -122,6 +122,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1227-number-of-equivalent-domino-pairs](https://github.com/samarjit-singh/leetCode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/samarjit-singh/leetCode/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/samarjit-singh/leetCode/tree/master/1890-sum-of-beauty-of-all-substrings) |
+| [1986-largest-color-value-in-a-directed-graph](https://github.com/samarjit-singh/leetCode/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/samarjit-singh/leetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2215-finding-3-digit-even-numbers](https://github.com/samarjit-singh/leetCode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/samarjit-singh/leetCode/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
@@ -197,6 +198,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1227-number-of-equivalent-domino-pairs](https://github.com/samarjit-singh/leetCode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1482-how-many-numbers-are-smaller-than-the-current-number](https://github.com/samarjit-singh/leetCode/tree/master/1482-how-many-numbers-are-smaller-than-the-current-number) |
 | [1890-sum-of-beauty-of-all-substrings](https://github.com/samarjit-singh/leetCode/tree/master/1890-sum-of-beauty-of-all-substrings) |
+| [1986-largest-color-value-in-a-directed-graph](https://github.com/samarjit-singh/leetCode/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/samarjit-singh/leetCode/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2448-count-number-of-bad-pairs](https://github.com/samarjit-singh/leetCode/tree/master/2448-count-number-of-bad-pairs) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/samarjit-singh/leetCode/tree/master/3629-total-characters-in-string-after-transformations-i) |
@@ -352,6 +354,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1130-last-stone-weight-ii](https://github.com/samarjit-singh/leetCode/tree/master/1130-last-stone-weight-ii) |
 | [1240-stone-game-ii](https://github.com/samarjit-singh/leetCode/tree/master/1240-stone-game-ii) |
 | [1250-longest-common-subsequence](https://github.com/samarjit-singh/leetCode/tree/master/1250-longest-common-subsequence) |
+| [1986-largest-color-value-in-a-directed-graph](https://github.com/samarjit-singh/leetCode/tree/master/1986-largest-color-value-in-a-directed-graph) |
 | [3143-longest-unequal-adjacent-groups-subsequence-i](https://github.com/samarjit-singh/leetCode/tree/master/3143-longest-unequal-adjacent-groups-subsequence-i) |
 | [3629-total-characters-in-string-after-transformations-i](https://github.com/samarjit-singh/leetCode/tree/master/3629-total-characters-in-string-after-transformations-i) |
 ## Two Pointers
@@ -405,6 +408,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0139-word-break](https://github.com/samarjit-singh/leetCode/tree/master/0139-word-break) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/samarjit-singh/leetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/samarjit-singh/leetCode/tree/master/0698-partition-to-k-equal-sum-subsets) |
+| [1986-largest-color-value-in-a-directed-graph](https://github.com/samarjit-singh/leetCode/tree/master/1986-largest-color-value-in-a-directed-graph) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -646,6 +650,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0803-cheapest-flights-within-k-stops](https://github.com/samarjit-singh/leetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1039-find-the-town-judge](https://github.com/samarjit-singh/leetCode/tree/master/1039-find-the-town-judge) |
 | [1558-course-schedule-iv](https://github.com/samarjit-singh/leetCode/tree/master/1558-course-schedule-iv) |
+| [1986-largest-color-value-in-a-directed-graph](https://github.com/samarjit-singh/leetCode/tree/master/1986-largest-color-value-in-a-directed-graph) |
 ## Shortest Path
 |  |
 | ------- |
@@ -657,6 +662,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0210-course-schedule-ii](https://github.com/samarjit-singh/leetCode/tree/master/0210-course-schedule-ii) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/samarjit-singh/leetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [1558-course-schedule-iv](https://github.com/samarjit-singh/leetCode/tree/master/1558-course-schedule-iv) |
+| [1986-largest-color-value-in-a-directed-graph](https://github.com/samarjit-singh/leetCode/tree/master/1986-largest-color-value-in-a-directed-graph) |
 ## Combinatorics
 |  |
 | ------- |
