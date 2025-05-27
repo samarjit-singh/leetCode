@@ -67,6 +67,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1039-find-the-town-judge](https://github.com/samarjit-singh/leetCode/tree/master/1039-find-the-town-judge) |
 | [1044-find-common-characters](https://github.com/samarjit-singh/leetCode/tree/master/1044-find-common-characters) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/samarjit-singh/leetCode/tree/master/1049-minimum-domino-rotations-for-equal-row) |
+| [1127-last-stone-weight](https://github.com/samarjit-singh/leetCode/tree/master/1127-last-stone-weight) |
 | [1130-last-stone-weight-ii](https://github.com/samarjit-singh/leetCode/tree/master/1130-last-stone-weight-ii) |
 | [1184-car-pooling](https://github.com/samarjit-singh/leetCode/tree/master/1184-car-pooling) |
 | [1206-corporate-flight-bookings](https://github.com/samarjit-singh/leetCode/tree/master/1206-corporate-flight-bookings) |
@@ -627,6 +628,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0789-kth-largest-element-in-a-stream](https://github.com/samarjit-singh/leetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/samarjit-singh/leetCode/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1014-k-closest-points-to-origin](https://github.com/samarjit-singh/leetCode/tree/master/1014-k-closest-points-to-origin) |
+| [1127-last-stone-weight](https://github.com/samarjit-singh/leetCode/tree/master/1127-last-stone-weight) |
 | [1184-car-pooling](https://github.com/samarjit-singh/leetCode/tree/master/1184-car-pooling) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/samarjit-singh/leetCode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/samarjit-singh/leetCode/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
