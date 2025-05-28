@@ -1,27 +1,23 @@
 class Solution {
 public:
-    int calcDist(int x, int y){
-        int x1 = abs(x-0) * abs(x-0);
-        int y1 = abs(y-0) * abs(y-0);
-
-        return x1+y1;
-    }
     vector<vector<int>> kClosest(vector<vector<int>>& points, int k) {
-        priority_queue<pair<int, pair<int, int>>, vector<pair<int, pair<int, int>>>, greater<pair<int, pair<int, int>>>> pq;
-        vector<vector<int>> res;
-        for(int i=0;i<points.size();i++){
-            int dist = calcDist(points[i][0], points[i][1]);
-            pq.push({dist, {points[i][0], points[i][1]}});
+        priority_queue<pair<int, vector<int>>, vector<pair<int, vector<int>>>, greater<pair<int, vector<int>>>> pq;
+        vector<vector<int>> result;
+
+        for(auto point : points) {
+            int x = point[0];
+            int y = point[1];
+            pq.push({x*x + y*y,point});
         }
 
-        for(int i=0;i<k;i++){
-            vector<int> temp;
-            temp.push_back(pq.top().second.first);
-            temp.push_back(pq.top().second.second);
-            res.push_back(temp);
+        while(k>0) {
+            auto curr = pq.top();
             pq.pop();
+
+            result.push_back(curr.second);
+            k--;
         }
 
-        return res;
+        return result;
     }
 };
