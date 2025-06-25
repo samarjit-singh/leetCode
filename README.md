@@ -89,6 +89,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2271-rearrange-array-elements-by-sign](https://github.com/samarjit-singh/leetCode/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/samarjit-singh/leetCode/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/samarjit-singh/leetCode/tree/master/2292-counting-words-with-a-given-prefix) |
+| [2320-find-all-k-distant-indices-in-an-array](https://github.com/samarjit-singh/leetCode/tree/master/2320-find-all-k-distant-indices-in-an-array) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/samarjit-singh/leetCode/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2448-count-number-of-bad-pairs](https://github.com/samarjit-singh/leetCode/tree/master/2448-count-number-of-bad-pairs) |
 | [2626-count-the-number-of-good-subarrays](https://github.com/samarjit-singh/leetCode/tree/master/2626-count-the-number-of-good-subarrays) |
@@ -388,6 +389,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0908-middle-of-the-linked-list](https://github.com/samarjit-singh/leetCode/tree/master/0908-middle-of-the-linked-list) |
 | [1019-squares-of-a-sorted-array](https://github.com/samarjit-singh/leetCode/tree/master/1019-squares-of-a-sorted-array) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/samarjit-singh/leetCode/tree/master/2271-rearrange-array-elements-by-sign) |
+| [2320-find-all-k-distant-indices-in-an-array](https://github.com/samarjit-singh/leetCode/tree/master/2320-find-all-k-distant-indices-in-an-array) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/samarjit-singh/leetCode/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Enumeration
 |  |
